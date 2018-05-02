@@ -2,20 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40px;
+.content-view {
+  height: calc(100vh - 70px);
+}
+
+/* Need to make footer height responsive for smaller screens */
+.footer {
+  border-radius: 17px; 
+  background-color: rgba(42, 42, 42, 0.45); 
+  height: calc(35px*1.8);
+  overflow: hidden; 
+  width: 8%; 
+  -webkit-transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
+}
+
+.footer:hover {
+  width: 100%; 
+}
+
+.footer:hover .row .col-md-9 .footer-table .footer-links {
+  opacity: 1; 
+}
+
+.footer-links {
+  padding-left: calc(35px*3); 
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out; 
+  transition: all 0.2s ease-in-out; 
+}
+
+.footer-img {
+  display: block; 
+  height: auto; 
+  padding-left: calc(35px*0.3); 
+}
+
+.footer-table {
+  margin-top: calc(35px*0.5);
+  padding-top: calc(35px*0.02);
+}
+
+.footer-title {
+  color: #cfcfcf;
+  font-style: italic;
+  font-size: 12px; 
+}
+
+.portfolio-logo {
+  height: 80px;
+  float: right; 
+  margin-top: calc(35px*4.5);
+  margin-right: calc(35px); 
+}
+
+.portfolio-title, .portfolio-tagline {
+  padding-right: calc(35px);
+}
+
+.portfolio-title {
+  text-align: right; 
+  clear: right; 
+  padding-top: calc(35px); 
+}
+
+.portfolio-tagline {
+  text-align: right; 
+  font-size: 14px; 
+  font-style: italic;
+}
+
+.quick-links {
+  padding-top: calc(35px*0.25);
+  padding-right: calc(35px*0.25); 
+}
+
+.quick-links-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;   
+}
+
+.sidebar, .viewport {
+  height: 100vh; 
+  overflow: hidden;
 }
 
 .sidebar {
-  border: 1px solid black;
+  background-color: #efe4d5;
+  border-right: 12px solid #373737;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-quick-links {
+  border-top: 1px solid #373737;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(35px*2.5); 
 }
+
+.viewport {
+  /*background-color: #f6f6f6;*/
+  background-color: #959595; 
+  height: 100vh; 
+}
+
