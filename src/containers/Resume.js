@@ -1,0 +1,13 @@
+import React, { Component, PropTypes } from 'react';
+
+import '../App.css';
+
+export default class Resume extends Component {
+    render() {
+        return (
+            <div className="resume">
+                Resume
+            </div> 
+        )
+    }
+}
