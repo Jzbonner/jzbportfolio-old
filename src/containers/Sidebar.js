@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
 import Github from '../assets/github-logo.png';
 import LinkedIn from '../assets/linkedin-logo.png';
@@ -20,10 +20,14 @@ export default class Sidebar extends Component {
                     <p className="portfolio-tagline"> Freelancer. </p>
 
                     <table className="table-quick-links">
-                        <th className="quick-links"><a href="https://github.com/Jzbonner"><img src={Github} className="quick-links-img" alt="github"/></a></th>
-                        <th className="quick-links"><a href="https://www.linkedin.com/in/jarrett-bonner-28048339/"><img src={LinkedIn} className="quick-links-img" alt="linkedin"/></a></th>
-                        <th className="quick-links"><a href="https://medium.com/@jarrett.bonner"><img src={Medium} className="quick-links-img" alt="medium"/></a></th>
-                        <th className="quick-links"><a href="_blank"><img src={Blog} className="quick-links-img" alt="blog"/></a></th>
+                        <tbody>
+                            <tr>
+                                <td className="quick-links"><a href="https://github.com/Jzbonner" data-toggle="tooltip" data-placement="bottom" title="Github"><img src={Github} className="quick-links-img" alt="github"/></a></td>
+                                <td className="quick-links"><a href="https://www.linkedin.com/in/jarrett-bonner-28048339/" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><img src={LinkedIn} className="quick-links-img" alt="linkedin"/></a></td>
+                                <td className="quick-links"><a href="https://medium.com/@jarrett.bonner" data-toggle="tooltip" data-placement="bottom" title="Medium"><img src={Medium} className="quick-links-img" alt="medium"/></a></td>
+                                <td className="quick-links"><a href="#" data-toggle="tooltip" data-placement="bottom" title="Blog Soon Come"><img src={Blog} className="quick-links-img" alt="blog"/></a></td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

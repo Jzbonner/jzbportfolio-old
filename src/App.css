@@ -16,7 +16,6 @@ body {
   transition: all 0.3s ease-in-out;  
 }
 
-/* Need to make footer height responsive for smaller screens with @media-queries */
 .footer {
   height: calc(35px*1.4);
   -webkit-transition: all 0.3s ease-in-out; 
@@ -39,36 +38,18 @@ a.footer-link {
 }
 
 .navbar {
-  height: auto; 
+  background-color: rgba(	210, 182, 148, 0.7); 
+  height: auto;  
   width: 100vw;
-  overflow: hidden; 
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.nav, .navbar-nav {
-  float: none; 
-  display: block; 
-  margin: 0 auto;
-  text-align: center;  
-}
-
 .nav-index {
-  
   height: 35px; 
   width: 35px; 
   -webkit-filter: invert(80%);
   filter: invert(80%);
-}
-
-.navbar-brand, .nav-item {
-  display: inline-block; 
-  float: none; 
-}
-
-.nav-section {
-  background: rgb(218, 222, 222);
-  height: 7%; 
 }
 
 .portfolio-logo {
@@ -79,7 +60,7 @@ a.footer-link {
 }
 
 .portfolio-title, .portfolio-tagline {
-  padding-right: calc(35px);
+  padding-right: calc(35px); 
 }
 
 .portfolio-title {
@@ -111,25 +92,25 @@ a.footer-link {
 }
 
 .sidebar-bg {
-  background-color: rgba(	239, 228, 213, 0.3);
-  height: 15%; 
+  background-color: rgba(	239, 228, 213, 0.8);
+  height: 102%; 
   margin: -15px; 
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .sidebar {
-  background: url(assets/sidebar-background.jpg);
+  background: url(assets/sidebar-bg.jpeg);
   background-repeat: no-repeat; 
   background-size: cover;
-  background-position: right; 
+  background-position: center; 
   border-right: 12px solid #373737;
-  height: 100vh; 
+  height: 100vh;   
 }
 
 .sidebar:hover .sidebar-bg {
-  background-color: rgba(	239, 228, 213, 0.8);
-  height: 101.5%; 
+  background-color: rgba(	169, 186, 157, 0.9);
 }
 
 .table-quick-links {
@@ -143,8 +124,4 @@ a.footer-link {
 .viewport {
   background-color: rgb(246, 246, 245); 
   height: 100vh; 
-}
-
-.border {
-  border: 12px solid black;
 }
