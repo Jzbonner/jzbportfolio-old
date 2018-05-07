@@ -6,6 +6,7 @@ export default (
     <Router>
         <Switch>
             <Route path="/" exact component={App} />
+            <Route path="/Bio" exact component={App} /> 
 
             {/*
                 
@@ -16,8 +17,7 @@ export default (
                 component class. 
 
             */}
-
-            <Route path="/Bio" exact component={App} />
+            
             <Route path="/Portfolio" component={App} />
             <Route path="/Experience" exact component={App} />
             <Route path="/Resume" exact component={App} />

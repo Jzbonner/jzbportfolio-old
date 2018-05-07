@@ -14,6 +14,9 @@ import '../App.css';
     Hard coded example of how the toggleContent class would work, but I need it to
     actually siphon through the component names not just have a different class 
     for each one. 
+
+    Should have some way to change displayComponent based on componentName. Answer 
+    might be an array. 
   
   */}
 
@@ -21,17 +24,19 @@ export default class Viewport extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      componentName: '',
       displayComponent: <Bio />
     }
 
-    this.toggleContent = this.toggleContent.bind(this)
+    this.handleToggleContent = this.handleToggleContent.bind(this)
   }
 
   
 
-  toggleContent() {
+  handleToggleContent() {
     this.setState((currentState) => {
       return {
+        componentName: '',
         displayComponent: <Portfolio />
       }
     }) 
@@ -53,22 +58,22 @@ export default class Viewport extends Component {
                 <div className="collapse navbar-collapse" id="navbarCollapseItems">
                   <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                      <Link to="/Bio" className="nav-link">
+                      <Link to="/Bio" onClick={this.handleToggleContent} className="nav-link">
                         Bio <span className="sr-only">(current)</span>
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/Experience" className="nav-link" href="#">
+                      <Link to="/Experience" onClick={this.handleToggleContent} className="nav-link" href="#">
                         Experience
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/Portfolio" onClick={this.toggleContent} className="nav-link" href="#">
+                      <Link to="/Portfolio" onClick={this.handleToggleContent} className="nav-link" href="#">
                         Portfolio
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/Resume" className="nav-link" href="#">
+                      <Link to="/Resume" onClick={this.handleToggleContent} className="nav-link" href="#">
                         Resume
                       </Link>
                     </li>
