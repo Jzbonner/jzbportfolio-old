@@ -9,28 +9,38 @@ import NavIndex from '../assets/source-code.png';
 
 import '../App.css';
 
-
-function handleContentView() {
-
-}
-
+  {/*
+    
+    Hard coded example of how the toggleContent class would work, but I need it to
+    actually siphon through the component names not just have a different class 
+    for each one. 
+  
+  */}
 
 export default class Viewport extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            
-        }
-
-        //this.handleContentView = this.handleContentView.bind(this)
+  constructor(props) {
+    super(props)
+    this.state = {
+      displayComponent: <Bio />
     }
 
-    
+    this.toggleContent = this.toggleContent.bind(this)
+  }
+
+  
+
+  toggleContent() {
+    this.setState((currentState) => {
+      return {
+        displayComponent: <Portfolio />
+      }
+    }) 
+  }
 
     render() {
         return (
         <div className="col-md-9 viewport">
-            {/* Structure for Navbar */}
+            {/* Structure for Navbar; All the links should be onClick to trigger the event handler */}
             <div className="row">
               <nav className="navbar navbar-expand-md navbar-light">
                 <a className="navbar-brand" href="https://jzb-co.surge.sh">
@@ -53,7 +63,7 @@ export default class Viewport extends Component {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link to="/Portfolio" className="nav-link" href="#">
+                      <Link to="/Portfolio" onClick={this.toggleContent} className="nav-link" href="#">
                         Portfolio
                       </Link>
                     </li>
@@ -72,7 +82,7 @@ export default class Viewport extends Component {
               <div className="col-md-1" />
               <div className="col-md-10">
                 <div className="content-view">
-                  <Bio /> {/*Add functions here to determine the active component and setState*/}
+                  {this.state.displayComponent}
                 </div>
                 <Footer />
               </div>

@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                Portfolio 
+                Portfolio Content
             </div> 
         )
     }

@@ -22,7 +22,7 @@ export default class Bio extends Component {
             </div> 
 
             */
-           <div className="example"> Portfolio Content </div>
+           <div className="example"> Biography Content </div>
         )
     }
 }
