@@ -42,58 +42,58 @@ export default class Viewport extends Component {
     }) 
   }
 
-    render() {
-        return (
-        <div className="col-md-9 viewport">
-            {/* Structure for Navbar; All the links should be onClick to trigger the event handler */}
-            <div className="row">
-              <nav className="navbar navbar-expand-md navbar-light">
-                <a className="navbar-brand" href="https://jzb-co.surge.sh">
-                  <img src={NavIndex} className="nav-index" alt="nav-index" />
-                </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseItems" aria-controls="navbarCollapseItems" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon" />
-                </button>
+  render() {
+    return (
+    <div className="col-md-9 viewport">
+        {/* Structure for Navbar; All the links should be onClick to trigger the event handler */}
+        <div className="row">
+          <nav className="navbar navbar-expand-md navbar-light">
+            <a className="navbar-brand" href="https://jzb-co.surge.sh">
+              <img src={NavIndex} className="nav-index" alt="nav-index" />
+            </a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseItems" aria-controls="navbarCollapseItems" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon" />
+            </button>
 
-                <div className="collapse navbar-collapse" id="navbarCollapseItems">
-                  <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                      <Link to="/Bio" onClick={this.handleToggleContent} className="nav-link">
-                        Bio <span className="sr-only">(current)</span>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/Experience" onClick={this.handleToggleContent} className="nav-link" href="#">
-                        Experience
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/Portfolio" onClick={this.handleToggleContent} className="nav-link" href="#">
-                        Portfolio
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/Resume" onClick={this.handleToggleContent} className="nav-link" href="#">
-                        Resume
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+            <div className="collapse navbar-collapse" id="navbarCollapseItems">
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                  <Link to="/Bio" onClick={this.handleToggleContent} className="nav-link">
+                    Bio <span className="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Experience" onClick={this.handleToggleContent} className="nav-link" href="#">
+                    Experience
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Portfolio" onClick={this.handleToggleContent} className="nav-link" href="#">
+                    Portfolio
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Resume" onClick={this.handleToggleContent} className="nav-link" href="#">
+                    Resume
+                  </Link>
+                </li>
+              </ul>
             </div>
+          </nav>
+        </div>
 
-            {/* Structure for Content View and Footer */}
-            <div className="row">
-              <div className="col-md-1" />
-              <div className="col-md-10">
-                <div className="content-view">
-                  {this.state.displayComponent}
-                </div>
-                <Footer />
-              </div>
-              <div className="col-md-1" />
+        {/* Structure for Content View and Footer */}
+        <div className="row">
+          <div className="col-md-1" />
+          <div className="col-md-10">
+            <div className="content-view">
+              {this.state.displayComponent}
             </div>
+            <Footer />
           </div>
-        );
-    }
+          <div className="col-md-1" />
+        </div>
+      </div>
+    );
+  }
 }
