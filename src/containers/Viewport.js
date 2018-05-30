@@ -20,6 +20,7 @@ import '../App.css';
   
   */}
 
+
 export default class Viewport extends Component {
   constructor(props) {
     super(props)
@@ -30,8 +31,6 @@ export default class Viewport extends Component {
 
     this.handleToggleContent = this.handleToggleContent.bind(this)
   }
-
-  
 
   handleToggleContent() {
     this.setState((currentState) => {
