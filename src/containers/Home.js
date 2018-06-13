@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Footer from './Footer'; 
 
 import '../App.css';
 
 export default class Home extends Component {
     render () {
         return (
-            <div>
-                Home 
+            <div className="home">
+                Home Content
+
+                <Footer />
             </div> 
         ) 
     }
