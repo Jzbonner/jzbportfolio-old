@@ -1,6 +1,4 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
 import routes from './routes';
 
 ReactDOM.render(
@@ -8,4 +6,3 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-registerServiceWorker();
