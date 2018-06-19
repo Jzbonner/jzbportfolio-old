@@ -5,6 +5,6 @@ import App from './containers/App';
 
 export default (
     <Router>
-        <Route path="/" exact component={App} />  
+        <App /> 
     </Router>
 )

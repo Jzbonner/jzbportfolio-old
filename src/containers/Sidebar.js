@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
+
 import Github from '../assets/github-logo.png';
 import LinkedIn from '../assets/linkedin-logo.png';
 import Medium from '../assets/medium.png';
@@ -11,16 +12,15 @@ export default class Sidebar extends Component {
     render() {
         return ( 
             <div className="sidebar"> 
-                <img src={logo} className="portfolio-logo" alt="logo"/>
-                <h2 className="portfolio-title"> Jarrett Bonner </h2>
-
-                {/* possible removal section
-
-                <p className="portfolio-tagline"> Developer. </p>
-                <p className="portfolio-tagline"> Student. </p>
-                <p className="portfolio-tagline"> Freelancer. </p>
-                
-                */}
+                <table className="table-markee">
+                    <tbody>
+                        <tr>
+                            <td className="portfolio-id"><h2 className="portfolio-title"> Jarrett Bonner </h2></td>
+                            <td className="portfolio-id"><p className="markee"><i class="fas fa-code-branch"></i> <i class="fas fa-keyboard"></i></p></td>
+                            <td className="portfolio-id"><img src={logo} className="portfolio-logo" alt="logo"/></td>
+                        </tr>                    
+                    </tbody> 
+                </table>
 
                 <table className="table-quick-links">
                     <tbody>

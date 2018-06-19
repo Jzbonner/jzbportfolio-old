@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
- 
 import Sidebar from './Sidebar';
 import Bio from './Bio';
 import Home from './Home';
@@ -137,7 +136,6 @@ export default class App extends Component {
                         ))}
                         </div>
                     </div>
-
                 </div>
             </div>
         </Router>
