@@ -17,22 +17,22 @@ export default class Home extends Component {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <p> FrontEnd (HTML5, CSS3, Markup) </p>
+                        <p> FrontEnd (HTML5, CSS3, and Markup) </p>
                         <div className="container-skills">
                             <div className="skills frontend">90%</div>
                         </div>
 
-                        <p> JavaScript (React), Babel (JSX) </p>
+                        <p> JavaScript (React) and Babel (JSX) </p>
                         <div className="container-skills">
                             <div className="skills js">80%</div>
                         </div>
 
-                        <p> Product Development, Management and Design </p>
+                        <p> Product Development (Tableau, Bokeh and Excel) </p>
                         <div class="container-skills">
                             <div className="skills product-manage">65%</div>
                         </div>
 
-                        <p> Python (Data Science) and Financial Engineering </p>
+                        <p> Python (Data Science) and Financial Engineering (Quantitative Analysis) </p>
                         <div class="container-skills">
                             <div className="skills python">65%</div>
                         </div>
