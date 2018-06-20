@@ -96,7 +96,6 @@ export default class App extends Component {
                             </div>
                         </nav>
                     </div>
-
                     {/*
                         Section for displaying the navbar/sidebar links to display the 
                         actual content; this section needs to be bootstrapped to provide 
@@ -119,7 +118,6 @@ export default class App extends Component {
                             ))}
                         </div>
                     </div>
-
                     {/*
                         Section for displaying the actual content that is triggered 
                         from the navbar/sidebar sections 
