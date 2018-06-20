@@ -60,7 +60,7 @@ export default class App extends Component {
                     {/*
                         Navbar Section with Link and BrowserRouter functionality 
                     */}
-                    <div className="col-md-2">
+                    <div className="col-lg-2">
                         <nav className="navbar navbar-light">
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseItems" aria-controls="navbarCollapseItems" aria-expanded="false" aria-label="Toggle navigation">
                                 <img src={NavIndex} className="nav-index" alt="nav-index" />
@@ -68,29 +68,29 @@ export default class App extends Component {
                             <div className="collapse navbar-collapse" id="navbarCollapseItems">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item">
-                                    <Link to="/Home" className="nav-link">
-                                        Home
-                                    </Link>
+                                        <Link to="/Home" className="nav-link">
+                                        <p className="nav-id"><i id="icon" class="fas fa-circle-notch"></i> Home </p>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <Link to="/Bio" className="nav-link">
-                                        Bio
-                                    </Link>
+                                        <Link to="/Bio" className="nav-link">
+                                        <p className="nav-id"><i id="icon" class="far fa-user-circle"></i> Bio </p> 
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <Link to="/Experience" className="nav-link">
-                                        Experience
-                                    </Link>
+                                        <Link to="/Experience" className="nav-link">
+                                        <p className="nav-id"><i id="icon" class="fas fa-flask"></i> Experience </p> 
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <Link to="/Portfolio" className="nav-link">
-                                        Portfolio
-                                    </Link>
+                                        <Link to="/Portfolio" className="nav-link">
+                                        <p className="nav-id"><i id="icon" class="far fa-file-alt"></i> Portfolio </p> 
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                    <Link to="/Resume" className="nav-link">
-                                        Resume
-                                    </Link>
+                                        <Link to="/Resume" className="nav-link">
+                                        <p className="nav-id"><i id="icon" class="fas fa-align-right"></i> Resume </p> 
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -106,7 +106,7 @@ export default class App extends Component {
                         smaller displays via media queries. 
 
                     */}
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="sidebar-view">
                             {routes.map((route, index) => (
                                 <Route
@@ -122,7 +122,7 @@ export default class App extends Component {
                         Section for displaying the actual content that is triggered 
                         from the navbar/sidebar sections 
                     */}
-                    <div className="col-md-7">
+                    <div className="col-lg-7">
                         <div className="content-view">
                         {routes.map((route, index) => (
                             <Route

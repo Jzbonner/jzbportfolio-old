@@ -1,3 +1,10 @@
+/*
+  Standardize the format of this CSS file for final production build. 
+  Make sure everything is commented out appropriately and make sure all 
+  CSS3 attributes are alphabetized accordingly. 
+
+*/
+
 body {
   background-color: whitesmoke; 
   margin: 0;
@@ -9,18 +16,30 @@ body {
   margin-top: 15px; 
 }
 
+
 /* Content View Section */
 .content-view {
-  height: 80vh; 
+  border: 2px solid black; 
+  height: 90vh; 
 }
+
 
  /* Navbar Section */
 .navbar {
-  border-right: 8px solid rgba(194,190,145, 0.9);
+  background-color: rgba(93, 181, 240, 0);
+  border-right: 8px solid rgba(95, 125, 145, 0.9);
   border-radius: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; 
-  box-shadow: 1px 1px whitesmoke; 
+}
+
+.navbar:hover {
+  background-color: rgba(195,209,221, 0.9);
+  border-right: 8px solid rgba(92, 92, 91, 0.9);
+}
+
+.nav-link {
+  padding-top: 5px; 
 }
 
 .nav-index {
@@ -35,9 +54,16 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+#icon {
+  font-size: 16px; 
+  margin: auto; 
+}
+
+
 /* Sidebar Infographic Section */
 .markee {
-  font-size: 16px; 
+  font-size: 18px; 
+  text-align: center; 
 }
 
 .table-markee {
@@ -47,9 +73,9 @@ body {
 
 .portfolio-logo {
   display: block; 
-  height: 55px; 
+  height: 65px; 
   margin: auto; 
-  width: 55px;
+  width: 65px;
 }
 
 .portfolio-id {
@@ -71,12 +97,6 @@ body {
   text-align: center;
 }
 
-.table-quick-links {
-  margin-top: 15px; 
-  margin-left: auto; 
-  margin-right: auto; 
-}
-
 .quick-links {
   padding: 10px; 
 }
@@ -86,8 +106,14 @@ body {
   width: 20px; 
  }
 
-/* Footer Section */ 
+.table-quick-links {
+  margin-top: 15px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
 
+
+/* Footer Section */ 
 a.footer-link {
   text-decoration: none; 
 }
@@ -95,3 +121,22 @@ a.footer-link {
 .footer-title {
   color: grey; 
 }
+
+/* Skill Bar Section */
+.container-skills {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-right: 20px; /* Add some right padding */
+  line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  color: white; /* White text color */
+}
+
+.frontend {width: 90%; background-color: #808080;} /* Green */
+.js {width: 80%; background-color: #808080;} /* Blue */
+.product-manage {width: 65%; background-color: #808080;} /* Red */
+.python {width: 65%; background-color: #808080;} /* Dark Grey */
+.backend {width: 60%; background-color: #808080;} /* Dark Grey */
