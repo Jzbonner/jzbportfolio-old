@@ -55,7 +55,7 @@ export default class App extends Component {
     render() {
         return (
         <Router>
-            <div className="container-fluid">
+            <div className="container-fluid design-bg">
                 <div className="row">
                     {/*
                         Navbar Section with Link and BrowserRouter functionality 
@@ -134,7 +134,7 @@ export default class App extends Component {
                         ))}
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </Router>
         )

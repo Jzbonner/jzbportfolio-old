@@ -16,7 +16,7 @@ export default class Sidebar extends Component {
                     <tbody>
                         <tr>
                             <td className="portfolio-id"><h2 className="portfolio-title"> Jarrett Bonner </h2></td>
-                            <td className="portfolio-id"><p className="markee"> <i class="far fa-clone"></i> </p></td>
+                            <td className="portfolio-id"><p className="markee"><i class="far fa-clone"></i></p></td>
                             <td className="portfolio-id"><img src={logo} className="portfolio-logo" alt="logo"/></td>
                         </tr>                    
                     </tbody> 

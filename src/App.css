@@ -13,16 +13,33 @@ body {
 }
 
 .content-view, .sidebar-view, .navbar {
-  margin-top: 15px; 
+  margin-top: 25px; 
 }
 
 
 /* Content View Section */
 .content-view {
-  
   height: 90vh; 
 }
 
+
+/* Home Section */
+.home-pic {
+  border: 2px solid #E3E5E4; 
+  border-radius: 360px; 
+  display: block;
+  height: 200px;  
+  margin: auto; 
+  margin-bottom: 35px; 
+  margin-top: 55px; 
+  width: 200px; 
+}
+
+.home-section-2 {
+  font-size: 24px; 
+  padding-top: 5px; 
+  text-align: center; 
+}
 
  /* Navbar Section */
 .navbar {
@@ -113,30 +130,41 @@ body {
 }
 
 
+/* Skill Bar Section */
+.container-skills {
+  width: 100%; 
+  background-color: #ddd; 
+  border-radius: 5px; 
+}
+
+.backend {width: 60%; background-color: #808080; border-radius: 5px;} 
+.frontend {width: 95%; background-color: #808080; border-radius: 5px;} 
+.js {width: 80%; background-color: #808080; border-radius: 5px;} 
+.product-manage {width: 65%; background-color: #808080; border-radius: 5px;}
+.python {width: 65%; background-color: #808080; border-radius: 5px;} 
+
+.skills {
+  text-align: right; 
+  padding-right: 20px; 
+  line-height: 25px; 
+  color: white; 
+}
+
+.skills-title {
+  padding-top: 15px; 
+  margin-bottom: 0px; 
+}
+
+
 /* Footer Section */ 
 a.footer-link {
   text-decoration: none; 
 }
 
+.footer {
+  padding-top: 35px; 
+}
+
 .footer-title {
   color: grey; 
 }
-
-/* Skill Bar Section */
-.container-skills {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
-
-.skills {
-  text-align: right; /* Right-align text */
-  padding-right: 20px; /* Add some right padding */
-  line-height: 25px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-  color: white; /* White text color */
-}
-
-.frontend {width: 90%; background-color: #808080;} /* Green */
-.js {width: 80%; background-color: #808080;} /* Blue */
-.product-manage {width: 65%; background-color: #808080;} /* Red */
-.python {width: 65%; background-color: #808080;} /* Dark Grey */
-.backend {width: 60%; background-color: #808080;} /* Dark Grey */
