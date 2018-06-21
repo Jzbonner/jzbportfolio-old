@@ -55,8 +55,8 @@ export default class App extends Component {
     render() {
         return (
         <Router>
-            <div className="container-fluid design-bg">
-                <div className="row">
+            <div className="container-fluid">
+                <div className="row design-bg">
                     {/*
                         Navbar Section with Link and BrowserRouter functionality 
                     */}
@@ -69,27 +69,27 @@ export default class App extends Component {
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item">
                                         <Link to="/Home" className="nav-link">
-                                        <p className="nav-id"><i id="icon" class="fas fa-circle-notch"></i> Home </p>
+                                        <p className="nav-id"><i id="icon" className="fas fa-circle-notch"></i> Home </p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Bio" className="nav-link">
-                                        <p className="nav-id"><i id="icon" class="far fa-user-circle"></i> Bio </p> 
+                                        <p className="nav-id"><i id="icon" className="far fa-user-circle"></i> Bio </p> 
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Experience" className="nav-link">
-                                        <p className="nav-id"><i id="icon" class="fas fa-flask"></i> Experience </p> 
+                                        <p className="nav-id"><i id="icon" className="fas fa-flask"></i> Experience </p> 
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Portfolio" className="nav-link">
-                                        <p className="nav-id"><i id="icon" class="far fa-file-alt"></i> Portfolio </p> 
+                                        <p className="nav-id"><i id="icon" className="far fa-file-alt"></i> Portfolio </p> 
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/Resume" className="nav-link">
-                                        <p className="nav-id"><i id="icon" class="fas fa-align-right"></i> Resume </p> 
+                                        <p className="nav-id"><i id="icon" className="fas fa-align-right"></i> Resume </p> 
                                         </Link>
                                     </li>
                                 </ul>
@@ -108,14 +108,14 @@ export default class App extends Component {
                     */}
                     <div className="col-lg-3">
                         <div className="sidebar-view">
-                            {routes.map((route, index) => (
-                                <Route
-                                    key={index}
-                                    path={route.path}
-                                    exact={route.exact}
-                                    component={route.sidebar}
-                                />
-                            ))}
+                        {routes.map((route, index) => (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                exact={route.exact}
+                                component={route.sidebar}
+                            />
+                        ))}
                         </div>
                     </div>
                     {/*

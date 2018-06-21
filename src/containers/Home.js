@@ -17,7 +17,7 @@ export default class Home extends Component {
                             given me the ability to bring my ideas to life. Both educational and employment
                             opportunities have played a pivotal role in developing my technical skill-set as 
                             well as the soft-skills necessary to be a key asset to any industry project or team. 
-                            <p className="home-section-2"><i class="fab fa-staylinked"></i></p> 
+                            <p className="home-section-2"><i className="fab fa-staylinked"></i></p> 
                             I have had the privilege of working with a number of professionals in the field of
                             computer and information science, mechanical engineering, statistics, and financial 
                             analysis. I hope to inspire those who are also looking to embark on a career in 
@@ -39,17 +39,17 @@ export default class Home extends Component {
                         </div>
 
                         <p className="skills-title"> Product Development (Tableau, Bokeh and Excel) </p>
-                        <div class="container-skills">
+                        <div className="container-skills">
                             <div className="skills product-manage">65%</div>
                         </div>
 
                         <p className="skills-title"> Python (Data Science) and Financial Engineering (Quantitative Analysis) </p>
-                        <div class="container-skills">
+                        <div className="container-skills">
                             <div className="skills python">65%</div>
                         </div>
 
                         <p className="skills-title"> BackEnd (Restful API, JSON, SQL, and Machine Learning) </p>
-                        <div class="container-skills">
+                        <div className="container-skills">
                             <div className="skills backend">60%</div>
                         </div>
                     </div> 

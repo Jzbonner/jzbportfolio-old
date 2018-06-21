@@ -1,21 +1,42 @@
 /*
+  ~ CSS NOTES FOR DEVELOPMENT ~ 
+
   Standardize the format of this CSS file for final production build. 
   Make sure everything is commented out appropriately and make sure all 
   CSS3 attributes are alphabetized accordingly. 
 
+  At Screen width 992px shrink portfolio logo picture to accommodate iPad Sized Screens 
+
+  Take off the design-bg logo for screens smaller than 991px and smaller 
+
 */
 
 body {
-  background-color: whitesmoke; 
-  margin: 0;
-  padding: 0;
+  background-color: rgba(238,238,238, 0.8);
   font-family: sans-serif;
+  min-height: 100vh; 
+  margin: 0;
+  overflow-y: auto; 
+  padding: 0;
+}
+
+html, .container-fluid {
+  min-height: 100%; 
 }
 
 .content-view, .sidebar-view, .navbar {
   margin-top: 25px; 
 }
 
+
+.design-bg {
+ background: url("../src/assets/resume.png");
+ background-size: 320px 320px; 
+ background-position: bottom left; 
+ background-blend-mode: soft-light;
+ background-repeat: no-repeat; 
+ padding-bottom: 60px; 
+}
 
 /* Content View Section */
 .content-view {
@@ -35,9 +56,13 @@ body {
   width: 200px; 
 }
 
+.home-section-1 {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
 .home-section-2 {
   font-size: 24px; 
-  padding-top: 5px; 
+  padding-top: 12px; 
   text-align: center; 
 }
 
@@ -78,11 +103,6 @@ body {
 
 
 /* Sidebar Infographic Section */
-.markee {
-  font-size: 18px; 
-  text-align: center; 
-}
-
 .table-markee {
   border-bottom: 2px solid #737987; 
   margin: auto; 
@@ -90,9 +110,9 @@ body {
 
 .portfolio-logo {
   display: block; 
-  height: 65px; 
+  height: 85px; 
   margin: auto; 
-  width: 65px;
+  width: 85px;
 }
 
 .portfolio-id {
@@ -143,6 +163,10 @@ body {
 .product-manage {width: 65%; background-color: #808080; border-radius: 5px;}
 .python {width: 65%; background-color: #808080; border-radius: 5px;} 
 
+.backend, .frontend, .js, .product-manage, .python {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
 .skills {
   text-align: right; 
   padding-right: 20px; 
@@ -151,13 +175,16 @@ body {
 }
 
 .skills-title {
-  padding-top: 15px; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
   margin-bottom: 0px; 
+  padding-top: 15px; 
+  
 }
 
 
 /* Footer Section */ 
 a.footer-link {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
   text-decoration: none; 
 }
 
