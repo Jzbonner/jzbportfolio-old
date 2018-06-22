@@ -7,8 +7,11 @@ export default class Resume extends Component {
     render() {
         return (
             <div className="resume">
-                Resume Content
-
+                <div className="row">
+                    <div className="col-lg-12">
+                        Image of Resume with Overshadow here. 
+                    </div> 
+                </div> 
                 <Footer />
             </div> 
         )
