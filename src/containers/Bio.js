@@ -19,8 +19,9 @@ export default class Bio extends Component {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>College Career - University of North Carolina 
-                                    (Bachelor's of Science in Information Science)</td> 
+                                    <td>
+                                        College Career - University of North Carolina (Bachelor's of Science in Information Science)
+                                    </td> 
                                 </tr> 
                                 <tr>
                                     <td> Course 1 </td>

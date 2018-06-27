@@ -7,6 +7,10 @@ export default class Experience extends Component {
     render() {
         return (
             <div className="experience">
+            {/* 
+                Consider adding card elements to the individual employment opportunities for a nicer visual 
+                layout using Material UI 
+            */}
                 <h2> Employment Experience </h2>
                 <br />
                 <p>
