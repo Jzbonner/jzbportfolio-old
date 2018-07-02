@@ -100,11 +100,6 @@ export default class App extends Component {
                         Section for displaying the navbar/sidebar links to display the 
                         actual content; this section needs to be bootstrapped to provide 
                         more of a grid layout for the UI of the page
-
-                        Also update the CSS file to actually work in tandem with the new layout
-                        Should have the navbar/sidebar be one feature that is responsive to 
-                        smaller displays via media queries. 
-
                     */}
                     <div className="col-lg-3">
                         <div className="sidebar-view">
