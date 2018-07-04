@@ -9,6 +9,7 @@ export default class Bio extends Component {
             <div className="bio"> 
                 <div className="row">
                     <div className="col-lg-12">
+                        <h2 className="about-title"> About </h2> 
                         <p className="general-interest"> 
                         Aside from defining myself academically, I have always strived to be a well rounded person 
                         in both extracurricular activities as well as those that would further my academic career. 
@@ -16,52 +17,45 @@ export default class Bio extends Component {
                         during my undergraduate career. 
                         </p> 
 
-                        <table>
+                        <p className="general-interest-education">
+                        <i className="fas fa-user-graduate"></i> University of North Carolina - Chapel Hill (Bachelor's of Science in Information Science)
+                        </p>
+                        {/* Additional Design Elements */}
+                        <table className="course-overview">
                             <tbody>
                                 <tr>
-                                    <td>
-                                        College Career - University of North Carolina (Bachelor's of Science in Information Science)
-                                    </td> 
-                                </tr> 
-                                <tr>
-                                    <td> Course 1 </td>
-                                    <td> Info on Course </td>
+                                    <td className="course-title"> INLS 202 <br />Retrieval and Organizing Systems</td>
+                                    <td className="course-description"> 
+                                        Foundational core concepts and core techniques in information organization, information retrieval, 
+                                        and data mining 
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td> Course 2 </td>
-                                    <td> Info on Course </td>
+                                    <td className="course-title"> INLS 203/500 <br />Human Information Behaviors <br />and Interactions </td>
+                                    <td className="course-description"> 
+                                        Overview of key areas and concepts in information science, to include task modeling, information 
+                                        seeking behavior, search behavior, human-computer interactions, usability, user interfaces, social 
+                                        media and social media analysis. 
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Course 3</td>
-                                    <td> Info on Course </td>
+                                    <td className="course-title"> INLS 520 <br />Organization of Information </td>
+                                    <td className="course-description"> 
+                                        Introduction to the problems and methods of organizing information, including information 
+                                        structures, knowledge schemas, data structures, terminological control, index language functions, 
+                                        and implications for searching 
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
-
+                        <br /> 
                         <p className="general-interest-2">
                         Gaining experience in life is about finding your medium in a world of extremes. I have often 
                         found direction by volunteering my time to aid in community organized projects and services. 
-
-                        {/* 
-                        
-                            Create an unorganized list of all the volunteer work and community 
-                            service work from resume 
-
-                        */}
-
-                        {/* Block Quote the Following */}
-                        General Interest - Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
+                        General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
                         Independent App Development, Quantitative Analysis and Quantum Computing 
+                        <br /> 
                         </p> 
-
-                        <p className="internship"> 
-                        Internship Background - Small blurb about Internships held in the past and connections made 
-                        </p> 
-
-                        <p className="employment">
-                        Employment Background - Small Blurb about Jobs held in the past and connections made
-                        </p>
-
                     </div>
                 </div> 
                 <Footer />

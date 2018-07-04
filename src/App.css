@@ -32,12 +32,9 @@ html, .container-fluid {
 
 
 .design-bg {
- background: url("../src/assets/resume.png");
- background-size: 320px 320px; 
- background-position: bottom left; 
- background-repeat: no-repeat; 
- padding-bottom: 60px; 
- 
+  background-color: rgba(238,238,238, 0.8);
+  background-image: -webkit-linear-gradient(109deg, rgba(238,238,238, 0.8) 90%, #CCDBE9 10%);
+  min-height: 100vh; 
 }
 
 /* Content View Section */
@@ -68,6 +65,44 @@ html, .container-fluid {
   text-align: center; 
 }
 
+/* Experience Section */
+.employment-title {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  text-align: center; 
+}
+
+/* Biography Section */ 
+.about-title {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  padding-bottom: 10px; 
+  text-align: center; 
+}
+
+.general-interest, .general-interest-2, .general-interest-education {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.general-interest-education {
+  font-size: 18px; 
+  font-weight: 300; 
+  text-align: center; 
+}
+
+.course-title, .course-description {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.course-title {
+  padding-right: 12px; 
+}
+
+.course-description {
+  border-left: 1px solid black; 
+  padding-bottom: 25px; 
+  padding-left: 18px; 
+  width: 405px; 
+}
+
  /* Navbar Section */
 .navbar {
   background-color: rgba(93, 181, 240, 0);
@@ -78,7 +113,6 @@ html, .container-fluid {
 }
 
 .navbar:hover {
-  background-color: rgba(195,209,221, 0.9);
   border-right: 8px solid rgba(92, 92, 91, 0.9);
 }
 
@@ -155,7 +189,7 @@ html, .container-fluid {
 /* Skill Bar Section */
 .container-skills {
   width: 100%; 
-  background-color: #ddd; 
+  background-color: rgb(237,233,224); 
   border-radius: 5px; 
 }
 
