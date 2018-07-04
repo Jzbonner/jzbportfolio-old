@@ -4,8 +4,8 @@ import Footer from './Footer';
 import '../App.css';
 
 {/* 
-Add Expansion Panel Design from Material UI to coordinate the portfolio preview sections 
-https://material-ui.com/demos/expansion-panels/
+    Add Expansion Panel Design from Material UI to coordinate the portfolio preview sections 
+    https://material-ui.com/demos/expansion-panels/
 */}
 
 export default class Portfolio extends Component {
