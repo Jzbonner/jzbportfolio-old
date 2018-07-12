@@ -5,9 +5,7 @@
   Make sure everything is commented out appropriately and make sure all 
   CSS3 attributes are alphabetized accordingly. 
 
-  At Screen width 992px shrink portfolio logo picture to accommodate iPad Sized Screens 
-
-  Take off the design-bg logo for screens smaller than 991px and smaller 
+  At Screen width 992px shrink sidebar width picture to accommodate iPad Sized Screens 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
 
@@ -74,17 +72,24 @@ html, .container-fluid {
 /* Biography Section */ 
 .about-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  padding-bottom: 10px; 
+  padding-bottom: 20px; 
   text-align: center; 
 }
 
-.general-interest, .general-interest-2, .general-interest-education {
+.general-interest-3 {
+  font-size: 24px; 
+  padding-right: 35px;
+  text-align: right;  
+}
+
+.general-interest, .general-interest-2, .general-interest-3, .general-interest-education {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  padding-bottom: 15px; 
 }
 
 .general-interest-education {
-  font-size: 18px; 
-  font-weight: 300; 
+  font-size: 22px; 
+  font-style: italic; 
   text-align: center; 
 }
 
@@ -93,13 +98,25 @@ html, .container-fluid {
 }
 
 .course-title {
+  background-color: rgba(238,227,207, 0.8); 
+  padding-top: 8.5px; 
+  padding-left: 8.5px; 
   padding-right: 12px; 
+  padding-bottom: 35px; 
+  font-weight: bold; 
+}
+
+.course-overview {
+  margin-left: auto; 
+  margin-right: auto; 
+
 }
 
 .course-description {
-  border-left: 1px solid black; 
-  padding-bottom: 25px; 
+  padding-top: 8.5px; 
+  padding-bottom: 35px; 
   padding-left: 18px; 
+  padding-right: 8.5px; 
   width: 405px; 
 }
 
@@ -188,7 +205,8 @@ html, .container-fluid {
 /* Skill Bar Section */
 .container-skills {
   width: 100%; 
-  background-color: rgb(237,233,224); 
+  /*background-color: rgb(237,233,224); */
+  background-color: rgba(138,109,69, 0.6);
   border-radius: 5px; 
 }
 

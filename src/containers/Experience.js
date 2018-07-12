@@ -47,7 +47,7 @@ class Experience extends Component {
             {/* 
                 Title and Card Components for Experience Section 
             */}
-                <h2 className="employment-title"> Employment Experience </h2><br />
+                <h2 className="employment-title"> - Employment Experience</h2><br />
                 <Card className={classes.card}>
                     <CardContent>
                         <Typography className={classes.headline}>

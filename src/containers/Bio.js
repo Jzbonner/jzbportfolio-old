@@ -9,7 +9,7 @@ export default class Bio extends Component {
             <div className="bio"> 
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2 className="about-title"> About </h2> 
+                        <h2 className="about-title"> - About </h2> 
                         <p className="general-interest"> 
                         Aside from defining myself academically, I have always strived to be a well rounded person 
                         in both extracurricular activities as well as those that would further my academic career. 
@@ -18,7 +18,8 @@ export default class Bio extends Component {
                         </p> 
 
                         <p className="general-interest-education">
-                        <i className="fas fa-user-graduate"></i> University of North Carolina - Chapel Hill (Bachelor's of Science in Information Science)
+                        University of North Carolina at Chapel Hill <br /> Bachelor's of Science in Information Science<br /> 
+                        <i className="fas fa-user-graduate"></i> <i class="fas fa-school"></i> <i class="fas fa-book"></i>
                         </p>
                         {/* Additional Design Elements */}
                         <table className="course-overview">
@@ -49,9 +50,9 @@ export default class Bio extends Component {
                             </tbody>
                         </table>
                         <br /> 
+                        <p className="general-interest-3"><i class="fas fa-quote-left"></i> <i class="fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
                         <p className="general-interest-2">
-                        Gaining experience in life is about finding your medium in a world of extremes. I have often 
-                        found direction by volunteering my time to aid in community organized projects and services. 
+                        I have often found direction by volunteering my time to aid in community organized projects and services. 
                         General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
                         Independent App Development, Quantitative Analysis and Quantum Computing 
                         <br /> 
