@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'; 
+import { withStyles } from '@material-ui/core/styles'; 
+import Paper from '@material-ui/core/Paper'; 
+import Typography from '@material-ui/core/Typography'; 
 import Footer from './Footer';
 
 import '../App.css';
@@ -11,17 +15,36 @@ import '../App.css';
     SIDENOTE: Update Resume design for 2018
 */}
 
-export default class Resume extends Component {
+const styles = theme => ({
+    root: {
+        ...theme.mixins.gutters(), 
+        paddingTop: theme.spacing.unit * 2,
+        paddingBottom: theme.spacing.unit * 2, 
+    },
+}); 
+
+class Resume extends Component {
     render() {
+        const { classes } = this.props; 
+
         return (
-            <div className="resume">
-                <div className="row">
-                    <div className="col-lg-12">
-                        Image of Resume with Overshadow here. 
-                    </div> 
-                </div> 
+            <div> 
+                <Paper className={classes.root} elevation={1}>
+                    <Typography variant="headline" component="h3">
+                        Resume
+                    </Typography> 
+                    <Typography component="p">
+                        Click anywhere to access resume. 
+                    </Typography> 
+                </Paper>
                 <Footer />
             </div> 
         )
     }
 }
+
+Resume.propTypes = {
+    classes: PropTypes.object.isRequired, 
+}; 
+
+export default withStyles(styles)(Resume)
