@@ -17,6 +17,11 @@ export default class Bio extends Component {
                         during my undergraduate career. 
                         </p> 
 
+                        <table>
+                            <tbody>
+                            </tbody> 
+                        </table> 
+
                         <p className="general-interest-education">
                         University of North Carolina at Chapel Hill <br /> Bachelor's of Science in Information Science<br /> 
                         <i className="fas fa-user-graduate"></i> <i class="fas fa-school"></i> <i class="fas fa-book"></i>
