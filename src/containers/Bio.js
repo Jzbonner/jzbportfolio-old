@@ -17,15 +17,21 @@ export default class Bio extends Component {
                         during my undergraduate career. 
                         </p> 
 
-                        <table>
+                        <table className="university-section">
                             <tbody>
+                                <tr>
+                                    <td className="university-logo">
+                                        <i className="fas fa-user-graduate"></i>
+                                    </td> 
+                                    <td className="university-name">
+                                        <p className="general-interest-education">
+                                            University of North Carolina at Chapel Hill <br /> Bachelor's of Science in Information Science<br /> 
+                                        </p>
+                                    </td>
+                                </tr> 
                             </tbody> 
-                        </table> 
-
-                        <p className="general-interest-education">
-                        University of North Carolina at Chapel Hill <br /> Bachelor's of Science in Information Science<br /> 
-                        <i className="fas fa-user-graduate"></i> <i class="fas fa-school"></i> <i class="fas fa-book"></i>
-                        </p>
+                        </table>
+                    
                         {/* Additional Design Elements */}
                         <table className="course-overview">
                             <tbody>
