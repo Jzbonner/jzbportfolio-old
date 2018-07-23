@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer'; 
+import UNC from '../assets/unc_logo.png';
 
 import '../App.css';
 
@@ -21,7 +22,7 @@ export default class Bio extends Component {
                             <tbody>
                                 <tr>
                                     <td className="university-logo">
-                                        <i className="fas fa-user-graduate"></i>
+                                        <img className="uni-logo-pic" src={UNC} alt="unc_logo" />
                                     </td> 
                                     <td className="university-name">
                                         <p className="general-interest-education">
@@ -61,7 +62,7 @@ export default class Bio extends Component {
                             </tbody>
                         </table>
                         <br /> 
-                        <p className="general-interest-3"><i class="fas fa-quote-left"></i> <i class="fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
+                        <p className="general-interest-3"><i className="fas fa-quote-left"></i> <i className="fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
                         <p className="general-interest-2">
                         I have often found direction by volunteering my time to aid in community organized projects and services. 
                         General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 

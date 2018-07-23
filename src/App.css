@@ -90,7 +90,7 @@ html, .container-fluid {
 .general-interest-education {
   font-size: 22px; 
   font-style: italic; 
-  text-align: center; 
+  text-align: left; 
 }
 
 .course-title, .course-description {
@@ -109,7 +109,7 @@ html, .container-fluid {
 .course-overview {
   margin-left: auto; 
   margin-right: auto; 
-
+  margin-bottom: 35px; 
 }
 
 .course-description {
@@ -118,6 +118,23 @@ html, .container-fluid {
   padding-left: 18px; 
   padding-right: 8.5px; 
   width: 405px; 
+}
+
+.university-section {
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 35px; 
+}
+
+.university-name {
+  padding: 15px; 
+}
+
+.uni-logo-pic {
+  height: 55px; 
+  margin: auto; 
+  margin-top: -25px; 
+  width: 55px;
 }
 
  /* Navbar Section */
@@ -233,7 +250,6 @@ html, .container-fluid {
   padding-top: 15px; 
   
 }
-
 
 /* Footer Section */ 
 a.footer-link {
