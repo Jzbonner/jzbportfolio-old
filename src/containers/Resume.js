@@ -18,9 +18,23 @@ import '../App.css';
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(), 
+        backgroundColor: '#CEE3E0',
         paddingTop: theme.spacing.unit * 2,
         paddingBottom: theme.spacing.unit * 2, 
+        height: 520, 
     },
+    title: {
+        fontSize: 32, 
+        fontFamily: 'Encode Sans Semi Expanded',
+        paddingTop: 200, 
+        paddingBottom: 20, 
+        textAlign: 'center', 
+    }, 
+    description: {
+        fontSize: 16, 
+        fontFamily: 'Encode Sans Semi Expanded',
+        textAlign: 'center', 
+    }
 }); 
 
 class Resume extends Component {
@@ -29,14 +43,21 @@ class Resume extends Component {
 
         return (
             <div> 
+
+            {/* 
+                Wrap the Paper component in an <a> tag so that 
+                you can apply hover and download functionality 
+            */}
+
                 <Paper className={classes.root} elevation={1}>
-                    <Typography variant="headline" component="h3">
-                        Resume
+                    <Typography className={classes.title} component="h2">
+                        - Resume
                     </Typography> 
-                    <Typography component="p">
-                        Click anywhere to access resume. 
+                    <Typography className={classes.description} component="p">
+                        Click anywhere to access resume.
                     </Typography> 
                 </Paper>
+
                 <Footer />
             </div> 
         )
