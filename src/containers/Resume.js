@@ -18,7 +18,7 @@ import '../App.css';
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(), 
-        backgroundColor: '#CEE3E0',
+        backgroundImage: '-webkit-linear-gradient(109deg, rgba(238,238,238, 0.8) 90%, #CCDBE9 10%)',
         paddingTop: theme.spacing.unit * 2,
         paddingBottom: theme.spacing.unit * 2, 
         height: 520, 
