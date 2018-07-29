@@ -30,12 +30,12 @@ export default class Home extends Component {
                     <div className="col-lg-12">
                         <p className="skills-title"> FrontEnd (HTML5, CSS3, Bootstrap and Markup) </p>
                         <div className="container-skills">
-                            <div className="skills frontend">95%</div>
+                            <div className="skills frontend">93%</div>
                         </div>
 
                         <p className="skills-title"> JavaScript (React, Angular, and Vue) and Babel (JSX) </p>
                         <div className="container-skills">
-                            <div className="skills js">80%</div>
+                            <div className="skills js">84%</div>
                         </div>
 
                         <p className="skills-title"> Product Development (Tableau, Bokeh and Excel) </p>
@@ -45,12 +45,12 @@ export default class Home extends Component {
 
                         <p className="skills-title"> Python (Data Science) and Financial Engineering (Quantitative Analysis) </p>
                         <div className="container-skills">
-                            <div className="skills python">65%</div>
+                            <div className="skills python">61%</div>
                         </div>
 
                         <p className="skills-title"> BackEnd (Restful API, JSON, SQL, and Machine Learning) </p>
                         <div className="container-skills">
-                            <div className="skills backend">60%</div>
+                            <div className="skills backend">62%</div>
                         </div>
                     </div> 
                 </div>

@@ -58,7 +58,8 @@ html, .container-fluid {
 }
 
 .home-section-2 {
-  font-size: 24px; 
+  color: #808080; 
+  font-size: 18px; 
   padding-top: 12px; 
   text-align: center; 
 }
@@ -98,22 +99,23 @@ html, .container-fluid {
 }
 
 .course-title {
-  background-color: rgba(238,227,207, 0.8); 
+  background-color: rgba(235,222,213, 0.8); 
   padding-top: 8.5px; 
-  padding-left: 8.5px; 
+  padding-left: 15px; 
   padding-right: 12px; 
   padding-bottom: 35px; 
   font-weight: bold; 
 }
 
 .course-overview {
+  border-bottom: 2px solid #AAAAAA; 
   margin-left: auto; 
   margin-right: auto; 
   margin-bottom: 35px; 
 }
 
 .course-description {
-  padding-top: 8.5px; 
+  padding-top: 10px; 
   padding-bottom: 35px; 
   padding-left: 18px; 
   padding-right: 8.5px; 
@@ -136,6 +138,11 @@ html, .container-fluid {
   margin-top: -25px; 
   width: 55px;
 }
+
+/* Resume Section */
+a.resume-link {
+  text-decoration: none; 
+} 
 
  /* Navbar Section */
 .navbar {
@@ -222,26 +229,26 @@ html, .container-fluid {
 /* Skill Bar Section */
 .container-skills {
   width: 100%; 
-  /*background-color: rgb(237,233,224); */
-  background-color: rgba(138,109,69, 0.6);
+  background-color: rgba(83,129,149, 0.6);
   border-radius: 5px; 
 }
 
-.backend {width: 60%; background-color: #808080; border-radius: 5px;} 
-.frontend {width: 95%; background-color: #808080; border-radius: 5px;} 
-.js {width: 80%; background-color: #808080; border-radius: 5px;} 
-.product-manage {width: 65%; background-color: #808080; border-radius: 5px;}
-.python {width: 65%; background-color: #808080; border-radius: 5px;} 
+.backend {width: 62%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
+.frontend {width: 93%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
+.js {width: 84%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
+.product-manage {width: 65%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;}
+.python {width: 61%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
 
 .backend, .frontend, .js, .product-manage, .python {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
 .skills {
-  text-align: right; 
-  padding-right: 20px; 
-  line-height: 25px; 
   color: white; 
+  line-height: 25px; 
+  font-size: 13px; 
+  padding-right: 20px;
+  text-align: right;  
 }
 
 .skills-title {

@@ -18,15 +18,15 @@ import '../App.css';
 const styles = theme => ({
     root: {
         ...theme.mixins.gutters(), 
-        backgroundImage: '-webkit-linear-gradient(109deg, rgba(238,238,238, 0.8) 90%, #CCDBE9 10%)',
+        backgroundImage: '-webkit-linear-gradient(240deg, rgba(238,238,238, 0.8) 90%, #B5B6BC 10%)',
         paddingTop: theme.spacing.unit * 2,
         paddingBottom: theme.spacing.unit * 2, 
-        height: 520, 
+        height: 320, 
     },
     title: {
         fontSize: 32, 
         fontFamily: 'Encode Sans Semi Expanded',
-        paddingTop: 200, 
+        paddingTop: 100, 
         paddingBottom: 20, 
         textAlign: 'center', 
     }, 
@@ -43,20 +43,20 @@ class Resume extends Component {
 
         return (
             <div> 
-
             {/* 
                 Wrap the Paper component in an <a> tag so that 
                 you can apply hover and download functionality 
             */}
-
-                <Paper className={classes.root} elevation={1}>
-                    <Typography className={classes.title} component="h2">
-                        - Resume
-                    </Typography> 
-                    <Typography className={classes.description} component="p">
-                        Click anywhere to access resume.
-                    </Typography> 
-                </Paper>
+                <a className="resume-link" href="#"> 
+                    <Paper className={classes.root} elevation={1}>
+                        <Typography className={classes.title} component="h2">
+                            - Resume
+                        </Typography> 
+                        <Typography className={classes.description} component="p">
+                            Click anywhere to access resume.
+                        </Typography> 
+                    </Paper>
+                </a>
 
                 <Footer />
             </div> 

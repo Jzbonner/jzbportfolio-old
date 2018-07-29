@@ -11,7 +11,8 @@ import '../App.css';
 
 const styles = {
     card: { 
-        backgroundColor: 'rgba(237,233,224, 0.5)', 
+        backgroundColor: 'rgba(245,245,245, 0.5)',
+        border: '2px solid #9F9F9F',  
         minWidth: 275,
         marginBottom: 15, 
     },
@@ -45,7 +46,8 @@ class Experience extends Component {
         return (
             <div className="experience">
             {/* 
-                Title and Card Components for Experience Section 
+                Title and Card Components for Experience Section - Add an 
+                additional card for freelance contract work experience 
             */}
                 <h2 className="employment-title"> - Employment Experience</h2><br />
                 <Card className={classes.card}>
