@@ -144,6 +144,11 @@ a.resume-link {
   text-decoration: none; 
 } 
 
+/* Portfolio Section */
+.internship, .employment {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
  /* Navbar Section */
 .navbar {
   border-right: 8px solid rgba(95, 125, 145, 0.9);
