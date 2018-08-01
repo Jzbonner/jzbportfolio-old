@@ -67,6 +67,7 @@ html, .container-fluid {
 /* Experience Section */
 .employment-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  padding-bottom: 20px; 
   text-align: center; 
 }
 
@@ -147,6 +148,16 @@ a.resume-link {
 /* Portfolio Section */
 .internship, .employment {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.employment {
+  padding-bottom: 35px; 
+}
+
+.portfolio-title {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  padding-bottom: 20px; 
+  text-align: center; 
 }
 
  /* Navbar Section */

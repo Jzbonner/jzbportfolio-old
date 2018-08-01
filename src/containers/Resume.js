@@ -8,9 +8,8 @@ import Footer from './Footer';
 import '../App.css';
 
 {/* 
-    Add Paper Element for Resume Hover Layout. https://material-ui.com/demos/paper/
-    And utilize the HTML download attribute https://www.w3schools.com/tags/att_a_download.asp
-    for a PDF of the Resume 
+    Add Hover Functionality to Paper Material UI using the onMouseEnter event and onMouseLeave event. 
+    Check out this documentation for reference: https://material-ui.com/utils/popover/
 
     SIDENOTE: Update Resume design for 2018
 */}
@@ -24,7 +23,7 @@ const styles = theme => ({
         height: 320, 
     },
     title: {
-        fontSize: 32, 
+        fontSize: 40, 
         fontFamily: 'Encode Sans Semi Expanded',
         paddingTop: 100, 
         paddingBottom: 20, 

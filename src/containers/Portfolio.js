@@ -47,11 +47,13 @@ class Portfolio extends Component {
 
         return (
             <div className="portfolio">
+                <h2 className="portfolio-title">- Portfolio Projects</h2> 
                 <p className="internship"> 
-                    My time spent interning with Cisco Systems Inc. allowed me to work both independently and in group settings, 
-                    while also developing my proficiency with Information Technology tools and resources. I have a strong passion 
-                    for all things tech related, and that interest has allowed me to develop keen problem solving strategies 
-                    to best approach the task at hand. 
+                    Internships provide opportunities to learn and grown from within the industry. Understanding the 
+                    inner workings of a business gives you the opportunity to see the micro processes that culminate 
+                    into a fully functioning corporation. My internship experience not only allowed me to develop my
+                    technical skill set, but to also develop keen problem solving strategies to further my value 
+                    as an asset in the workforce. 
                 </p> 
                 <p className="home-section-2"><i className="fab fa-staylinked"></i></p> 
                 <p className="employment">
