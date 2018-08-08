@@ -57,20 +57,19 @@ class Portfolio extends Component {
                 </p> 
                 <p className="home-section-2"><i className="fab fa-staylinked"></i></p> 
                 <p className="employment">
-                    My time spent at UNC’s Office of Arts and Sciences Information Services Department as a WordPress technician, gave me 
-                    firsthand experience working directly with clients to reach web service related goals. I was able to grow my communication 
-                    skills, resolve customer complaints, and gain familiarity with Customer Relationship Management platforms (CRM). I utilized 
-                    much of these skills during my time as an Information Technology Consultant and Customer Service Representative for Monster 
-                    Marketer’s Inc. Working in the marketing and advertising realm, increased my knowledge of SEO technologies and Social Media/Web 
-                    2.0 Applications. Combining these skills with my college related coursework in systems development and project management, allowed 
-                    me to understand the daily intricacies of operating a business to business company.
+                    Having the opportunity to develop one's self under the leadership of an industry professional provided 
+                    me with direction in my career trajectory. The challenging experience of working in settings that contrast
+                    greatly from academic environments, really sparked my interest in understanding the ways in which we interact
+                    with and develop everyday technologies. Understanding the daily intricacies of business operations, added 
+                    a unique perspective as to how I went about completing job responsibilities as well as developing my own 
+                    independent projects. 
                 </p>
 
                 <div className={classes.root}>
                     <ExpansionPanel expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Portfolio Project 1</Typography>
-                            <Typography className={classes.secondaryHeading}>Summary 1</Typography>
+                            <Typography className={classes.heading}>Financial Instrument Tracker</Typography>
+                            <Typography className={classes.secondaryHeading}>A tool for tracking financial information for various equities, commodities, stocks and other financial instruments</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography>
@@ -80,8 +79,8 @@ class Portfolio extends Component {
                     </ExpansionPanel>
                     <ExpansionPanel expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Portfolio Project 2</Typography>
-                            <Typography className={classes.secondaryHeading}>Summary 2</Typography>
+                            <Typography className={classes.heading}>NFL React Native App</Typography>
+                            <Typography className={classes.secondaryHeading}>A web/mobile application for all your NFL News and Updates</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography>
@@ -91,8 +90,8 @@ class Portfolio extends Component {
                     </ExpansionPanel>
                     <ExpansionPanel expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Portfolio Project 3</Typography>
-                            <Typography className={classes.secondaryHeading}>Summary 3</Typography>
+                            <Typography className={classes.heading}>Big Data and Data Analytics</Typography>
+                            <Typography className={classes.secondaryHeading}>Crypto-currency analysis using Python and Bokeh</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography>
@@ -100,10 +99,10 @@ class Portfolio extends Component {
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
-                    <ExpansionPanel expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
+                    <ExpansionPanel disabled expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Portfolio Project 4</Typography>
-                            <Typography className={classes.secondaryHeading}>Summary 4</Typography>
+                            <Typography className={classes.heading}>Business Intelligence and Product Management</Typography>
+                            <Typography className={classes.secondaryHeading}>In Development</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography>
