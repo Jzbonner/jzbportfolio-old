@@ -23,7 +23,7 @@ const styles = theme => ({
         height: 320, 
     },
     title: {
-        fontSize: 40, 
+        fontSize: 32, 
         fontFamily: 'Encode Sans Semi Expanded',
         paddingTop: 100, 
         paddingBottom: 20, 
