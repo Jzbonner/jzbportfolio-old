@@ -97,9 +97,8 @@ export default class App extends Component {
                         </nav>
                     </div>
                     {/*
-                        Section for displaying the navbar/sidebar links to display the 
-                        actual content; this section needs to be bootstrapped to provide 
-                        more of a grid layout for the UI of the page
+                        Functionality layout for displaying the navbar/sidebar links to 
+                        show the page content
                     */}
                     <div className="col-lg-3">
                         <div className="sidebar-view">

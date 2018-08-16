@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper'; 
 import Typography from '@material-ui/core/Typography'; 
 import Footer from './Footer';
+import ResumePic from '../assets/resume.png';
 
 import '../App.css';
 
@@ -43,17 +44,23 @@ class Resume extends Component {
         return (
             <div> 
             {/* 
-                Wrap the Paper component in an <a> tag so that 
-                you can apply hover and download functionality 
+                Resume layout for functionality and design
             */}
                 <a className="resume-link" href="#"> 
                     <Paper className={classes.root} elevation={1}>
-                        <Typography className={classes.title} component="h2">
-                            - Resume
-                        </Typography> 
-                        <Typography className={classes.description} component="p">
-                            Click anywhere to access resume.
-                        </Typography> 
+                        <div className="row">
+                            <div className="col-md-2">
+                                <img className="resume-pic" src={ResumePic} alt="resume" /> 
+                            </div> 
+                            <div className="col-md-10">
+                                <Typography className={classes.title} component="h2">
+                                    - Resume - 
+                                </Typography> 
+                                <Typography className={classes.description} component="p">
+                                    Click anywhere to access resume.
+                                </Typography> 
+                            </div> 
+                        </div>                                       
                     </Paper>
                 </a>
 

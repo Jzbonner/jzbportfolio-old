@@ -74,6 +74,7 @@ html, .container-fluid {
 /* Biography Section */ 
 .about-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 32px; 
   padding-bottom: 20px; 
   text-align: center; 
 }
@@ -144,6 +145,13 @@ html, .container-fluid {
 a.resume-link {
   text-decoration: none; 
 } 
+
+.resume-pic {
+  height: 225px; 
+  margin-top: 35px; 
+  margin-left: 35px; 
+  width: 225px;
+}
 
 /* Portfolio Section */
 .internship, .employment {

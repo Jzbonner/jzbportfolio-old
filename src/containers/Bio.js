@@ -10,7 +10,7 @@ export default class Bio extends Component {
             <div className="bio"> 
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2 className="about-title"> - About </h2> 
+                        <h2 className="about-title">- About -</h2> 
                         <p className="general-interest"> 
                         Aside from defining myself academically, I have always strived to be a well rounded person 
                         in both extracurricular activities as well as those that would further my academic career. 

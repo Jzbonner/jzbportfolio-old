@@ -47,7 +47,7 @@ class Portfolio extends Component {
 
         return (
             <div className="portfolio">
-                <h2 className="portfolio-title">- Portfolio Projects</h2> 
+                <h2 className="portfolio-title">- Portfolio Projects -</h2> 
                 <p className="internship"> 
                     Internships provide opportunities to learn and grown from within the industry. Understanding the 
                     inner workings of a business gives you the opportunity to see the micro processes that culminate 
