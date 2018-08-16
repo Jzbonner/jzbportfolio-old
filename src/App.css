@@ -1,11 +1,11 @@
 /*
-  ~ CSS NOTES FOR DEVELOPMENT ~ 
+  ~ NOTES FOR DEVELOPMENT ~ 
 
-  Standardize the format of this CSS file for final production build. 
-  Make sure everything is commented out appropriately and make sure all 
-  CSS3 attributes are alphabetized accordingly. 
-
-  At Screen width 992px shrink sidebar width picture to accommodate iPad Sized Screens 
+  1.) Add Resume Functionality to Resume page 
+  2.) Add details and links to expansion panels on Portfolio Project Page 
+  3.) Add Freelance experience and spruce up Experience Cards on Employment Page 
+  4.) Add animations/tooltips to site
+  5.) Change Expansion Panel design on Portfolio Projects Page 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
 
