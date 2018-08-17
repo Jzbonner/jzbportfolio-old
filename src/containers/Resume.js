@@ -19,6 +19,7 @@ const styles = theme => ({
     root: {
         ...theme.mixins.gutters(), 
         backgroundImage: '-webkit-linear-gradient(240deg, rgba(238,238,238, 0.8) 90%, #B5B6BC 10%)',
+        border: '2px solid #9F9F9F',  
         paddingTop: theme.spacing.unit * 2,
         paddingBottom: theme.spacing.unit * 2, 
         height: 320, 
