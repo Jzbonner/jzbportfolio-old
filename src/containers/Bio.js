@@ -66,7 +66,7 @@ export default class Bio extends Component {
                         <p className="general-interest-2">
                         I have often found direction by volunteering my time to aid in community organized projects and services. 
                         General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
-                        Independent App Development, Quantitative Analysis and Quantum Computing 
+                        Independent App Development, and Financial and Quantitative Analysis
                         <br /> 
                         </p> 
                     </div>
