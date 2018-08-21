@@ -73,7 +73,7 @@ class Portfolio extends Component {
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography>
-                                Details for Portfolio Project 1 
+                                Link to repository <a href="https://github.com/Jzbonner/FinancialInstrumentTracker">Financial Instrument Tracker Source Code</a>
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>

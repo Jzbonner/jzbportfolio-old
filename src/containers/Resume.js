@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'; 
-import { withStyles } from '@material-ui/core/styles'; 
-import Paper from '@material-ui/core/Paper'; 
-import Typography from '@material-ui/core/Typography'; 
+
 import Footer from './Footer';
 import ResumePic from '../assets/resume.png';
 
@@ -15,54 +12,29 @@ import '../App.css';
     SIDENOTE: Update Resume design for 2018
 */}
 
-const styles = theme => ({
-    root: {
-        ...theme.mixins.gutters(), 
-        backgroundImage: '-webkit-linear-gradient(240deg, rgba(238,238,238, 0.8) 90%, #B5B6BC 10%)',
-        border: '2px solid #9F9F9F',  
-        paddingTop: theme.spacing.unit * 2,
-        paddingBottom: theme.spacing.unit * 2, 
-        height: 320, 
-    },
-    description: {
-        fontSize: 16, 
-        fontFamily: 'Encode Sans Semi Expanded',
-        textAlign: 'center', 
-    }
-}); 
-
-class Resume extends Component {
+export default class Resume extends Component {
     render() {
-        const { classes } = this.props; 
-
         return (
             <div> 
-            {/* 
-                Resume layout for functionality and design
-            */}
-                <a className="resume-link" href="../assets/jzb-resume.docx" download> 
-                    <Paper className={classes.root} elevation={1}>
+                <div className="resume-section">
+                    <a className="resume-link" href="https://github.com/Jzbonner/jzb-co/blob/master/src/assets/jzb-resume.docx?raw=true" download> 
                         <div className="row">
-                            <div className="col-md-12">
-                                <img className="resume-pic" src={ResumePic} alt="resume" /> 
+                            <div className="col-md-3">
+                                <img className="resume-pic" src={ResumePic} alt="resume" />
                             </div> 
-                            {/*<div className="col-md-10">
-                                <Typography className={classes.description} component="p">
-                                    Click anywhere to access resume.
-                                </Typography> 
-                            </div>*/} 
+                            <div className="col-md-6">   
+                                <p className="resume-description">
+                                    For a more customary look at my skills <br/>
+                                    click here to access my resume.<br/> 
+                                    Feel free to contact me for services<br/> 
+                                    or employment opportunities.
+                                </p>
+                            </div>
                         </div>                                       
-                    </Paper>
-                </a>
-
+                    </a>
+                </div> 
                 <Footer />
             </div> 
         )
     }
 }
-
-Resume.propTypes = {
-    classes: PropTypes.object.isRequired, 
-}; 
-
-export default withStyles(styles)(Resume)

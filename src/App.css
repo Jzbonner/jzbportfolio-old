@@ -1,11 +1,10 @@
 /*
   ~ NOTES FOR DEVELOPMENT ~ 
 
-  1.) Add Resume Functionality to Resume page 
-  2.) Add details and links to expansion panels on Portfolio Project Page 
-  3.) Add Freelance experience and spruce up Experience Cards on Employment Page 
-  4.) Add animations to site
-  5.) Change Expansion Panel design on Portfolio Projects Page 
+  1.) Add details and links to expansion panels on Portfolio Project Page 
+  2.) Add Freelance experience and spruce up Experience Cards on Employment Page 
+  3.) Add animations to site
+  4.) Change Expansion Panel design on Portfolio Projects Page 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
 
@@ -157,12 +156,26 @@ html, .container-fluid {
 
 /* Resume Section */
 a.resume-link {
+  cursor: pointer; 
   text-decoration: none; 
 } 
 
+.resume-description {
+  color: black; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-left: 25px; 
+  padding-top: 40px;
+  text-align: left; 
+}
+
+.resume-section {
+  padding: 15px; 
+}
+
 .resume-pic {
+  display: block; 
   height: 225px; 
-  margin: 0 auto; 
+  margin: auto; 
   width: 225px;
 }
 
@@ -286,7 +299,7 @@ a.resume-link {
 
 .skills {
   color: white; 
-  line-height: 14px; 
+  line-height: 15px; 
   font-size: 12px; 
   padding-right: 22px;
   text-align: right;  
