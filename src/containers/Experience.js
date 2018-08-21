@@ -49,7 +49,7 @@ class Experience extends Component {
                 Title and Card Components for Experience Section - Add an 
                 additional card for freelance contract work experience 
             */}
-                <h2 className="employment-title"> - Employment Experience -</h2><br />
+                <h2 className="employment-title">Experience</h2><br />
                 <Card className={classes.card}>
                     <CardContent>
                         <Typography className={classes.headline}>

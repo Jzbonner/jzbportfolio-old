@@ -40,7 +40,7 @@ export default class Home extends Component {
 
                         <p className="skills-title"> Product Development (Tableau, Bokeh and Excel) </p>
                         <div className="container-skills">
-                            <div className="skills product-manage">65%</div>
+                            <div className="skills product-manage">71%</div>
                         </div>
 
                         <p className="skills-title"> Python (Data Science) and Financial Engineering (Quantitative Analysis) </p>

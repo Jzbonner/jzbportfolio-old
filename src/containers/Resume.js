@@ -24,13 +24,6 @@ const styles = theme => ({
         paddingBottom: theme.spacing.unit * 2, 
         height: 320, 
     },
-    title: {
-        fontSize: 32, 
-        fontFamily: 'Encode Sans Semi Expanded',
-        paddingTop: 100, 
-        paddingBottom: 20, 
-        textAlign: 'center', 
-    }, 
     description: {
         fontSize: 16, 
         fontFamily: 'Encode Sans Semi Expanded',
@@ -47,20 +40,17 @@ class Resume extends Component {
             {/* 
                 Resume layout for functionality and design
             */}
-                <a className="resume-link" href="#"> 
+                <a className="resume-link" href="../assets/jzb-resume.docx" download> 
                     <Paper className={classes.root} elevation={1}>
                         <div className="row">
-                            <div className="col-md-2">
+                            <div className="col-md-12">
                                 <img className="resume-pic" src={ResumePic} alt="resume" /> 
                             </div> 
-                            <div className="col-md-10">
-                                <Typography className={classes.title} component="h2">
-                                    - Resume - 
-                                </Typography> 
+                            {/*<div className="col-md-10">
                                 <Typography className={classes.description} component="p">
                                     Click anywhere to access resume.
                                 </Typography> 
-                            </div> 
+                            </div>*/} 
                         </div>                                       
                     </Paper>
                 </a>

@@ -10,7 +10,7 @@ export default class Bio extends Component {
             <div className="bio"> 
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2 className="about-title">- About -</h2> 
+                        <h2 className="about-title">About</h2> 
                         <p className="general-interest"> 
                         Aside from defining myself academically, I have always strived to be a well rounded person 
                         in both extracurricular activities as well as those that would further my academic career. 
@@ -62,7 +62,7 @@ export default class Bio extends Component {
                             </tbody>
                         </table>
                         <br /> 
-                        <p className="general-interest-3"><i className="fas fa-quote-left"></i> <i className="fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
+                        <p className="general-interest-3"><i className=" ql fas fa-quote-left"></i> <i className="qr fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
                         <p className="general-interest-2">
                         I have often found direction by volunteering my time to aid in community organized projects and services. 
                         General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 

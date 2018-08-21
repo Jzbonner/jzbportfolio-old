@@ -15,7 +15,7 @@ export default class Sidebar extends Component {
                 <table className="table-markee">
                     <tbody>
                         <tr>
-                            <td className="portfolio-id"><h2 className="portfolio-title"> Jarrett Bonner </h2></td>
+                            <td className="portfolio-id"><h2 className="sidebar-title"> Jarrett Bonner </h2></td>
                             <td className="portfolio-id"><img src={logo} className="portfolio-logo" alt="logo"/></td>
                         </tr>                    
                     </tbody> 

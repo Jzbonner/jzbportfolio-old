@@ -4,7 +4,7 @@
   1.) Add Resume Functionality to Resume page 
   2.) Add details and links to expansion panels on Portfolio Project Page 
   3.) Add Freelance experience and spruce up Experience Cards on Employment Page 
-  4.) Add animations/tooltips to site
+  4.) Add animations to site
   5.) Change Expansion Panel design on Portfolio Projects Page 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
@@ -67,8 +67,9 @@ html, .container-fluid {
 /* Experience Section */
 .employment-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  padding-bottom: 20px; 
-  text-align: center; 
+  padding-bottom: 10px; 
+  text-align: left; 
+  text-indent: 15px; 
 }
 
 /* Biography Section */ 
@@ -76,7 +77,8 @@ html, .container-fluid {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 32px; 
   padding-bottom: 20px; 
-  text-align: center; 
+  text-align: left; 
+  text-indent: 15px; 
 }
 
 .general-interest-3 {
@@ -92,7 +94,7 @@ html, .container-fluid {
 
 .general-interest-education {
   font-size: 22px; 
-  font-style: italic; 
+  
   text-align: left; 
 }
 
@@ -141,6 +143,18 @@ html, .container-fluid {
   width: 55px;
 }
 
+.qr {
+  font-style: italic; 
+  -webkit-transform: translateY(5px); 
+  transform: translateY(5px);
+}
+
+.ql {
+  font-style: italic; 
+  -webkit-transform: translateY(-5px); 
+  transform: translateY(-5px);
+}
+
 /* Resume Section */
 a.resume-link {
   text-decoration: none; 
@@ -148,8 +162,7 @@ a.resume-link {
 
 .resume-pic {
   height: 225px; 
-  margin-top: 35px; 
-  margin-left: 35px; 
+  margin: 0 auto; 
   width: 225px;
 }
 
@@ -166,7 +179,8 @@ a.resume-link {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 32px; 
   padding-bottom: 20px; 
-  text-align: center; 
+  text-align: left; 
+  text-indent: 15px; 
 }
 
  /* Navbar Section */
@@ -204,9 +218,18 @@ a.resume-link {
 
 
 /* Sidebar Infographic Section */
+.sidebar-title {
+  color: rgb(108,102,114); 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 32px; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
 .table-markee {
   border-bottom: 2px solid #737987; 
   margin: auto; 
+  width: 90%; 
 }
 
 .portfolio-logo {
@@ -245,16 +268,17 @@ a.resume-link {
 
 /* Skill Bar Section */
 .container-skills {
-  width: 100%; 
   background-color: rgba(83,129,149, 0.6);
-  border-radius: 5px; 
+  border-radius: 5px;  
+  width: 100%; 
+  
 }
 
-.backend {width: 62%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
-.frontend {width: 93%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
-.js {width: 84%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
-.product-manage {width: 65%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;}
-.python {width: 61%; background-color: rgba(128,128,128, 0.7); border-radius: 5px;} 
+.backend {width: 62%; background-color: rgba(128,128,128, 0.7); border-radius: 2px;} 
+.frontend {width: 93%; background-color: rgba(128,128,128, 0.7); border-radius: 2px;} 
+.js {width: 84%; background-color: rgba(128,128,128, 0.7); border-radius: 2px;} 
+.product-manage {width: 71%; background-color: rgba(128,128,128, 0.7); border-radius: 2px;}
+.python {width: 61%; background-color: rgba(128,128,128, 0.7); border-radius: 2px;} 
 
 .backend, .frontend, .js, .product-manage, .python {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
@@ -262,15 +286,16 @@ a.resume-link {
 
 .skills {
   color: white; 
-  line-height: 25px; 
-  font-size: 13px; 
-  padding-right: 20px;
+  line-height: 14px; 
+  font-size: 12px; 
+  padding-right: 22px;
   text-align: right;  
 }
 
 .skills-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   margin-bottom: 0px; 
+  padding-bottom: 23px; 
   padding-top: 15px; 
   
 }
