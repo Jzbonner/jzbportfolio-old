@@ -17,6 +17,7 @@ export default class Resume extends Component {
         return (
             <div> 
                 <div className="resume-section">
+                    <h2 className="resume-title">Resume</h2> 
                     <a className="resume-link" href="https://github.com/Jzbonner/jzb-co/blob/master/src/assets/jzb-resume.docx?raw=true" download> 
                         <div className="row">
                             <div className="col-md-3">

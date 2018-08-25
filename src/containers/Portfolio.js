@@ -12,16 +12,22 @@ import '../App.css';
 
 const styles = theme => ({
     root: {
-      width: '100%',
+        width: '100%',
+        backgroundColor: 'rgba(255,157,60, 0.3)', 
+    },
+    design: {
+        backgroundColor: '#e8f5e9',
     },
     heading: {
-      fontSize: theme.typography.pxToRem(15),
-      flexBasis: '33.33%',
-      flexShrink: 0,
+        fontSize: theme.typography.pxToRem(15),
+        fontFamily: 'Encode Sans Semi Expanded',
+        fontWeight: 'bold',
+        flexBasis: '33.33%',
+        flexShrink: 0,
     },
     secondaryHeading: {
-      fontSize: theme.typography.pxToRem(15),
-      color: theme.palette.text.secondary,
+        fontSize: theme.typography.pxToRem(15),
+        color: theme.palette.text.secondary,
     },
   });
 
@@ -66,18 +72,21 @@ class Portfolio extends Component {
                 </p>
 
                 <div className={classes.root}>
-                    <ExpansionPanel expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
+                    <ExpansionPanel className={classes.design} expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Financial Instrument Tracker</Typography>
+                            <Typography className={classes.heading}>Financial Instrument Tracker <br/> <i className="fas fa-money-check-alt fit-icon"></i><i className="fas fa-thumbtack fit-icon"></i></Typography>
                             <Typography className={classes.secondaryHeading}>A tool for tracking financial information for various equities, commodities, stocks and other financial instruments</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Typography>
-                                Link to repository <a href="https://github.com/Jzbonner/FinancialInstrumentTracker">Financial Instrument Tracker Source Code</a>
+                            <Typography> 
+                                Link to repository <a href="https://github.com/Jzbonner/FinancialInstrumentTracker">Financial Instrument Tracker Source Code</a>. 
+                                Built off of financial data that is both web scraped and collected from database systems, this financial tool 
+                                enables users to accurately track financial highlights of a particular commodity or equity.<br />     
+                                                                                   
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
-                    <ExpansionPanel expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
+                    <ExpansionPanel className={classes.design} expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography className={classes.heading}>NFL React Native App</Typography>
                             <Typography className={classes.secondaryHeading}>A web/mobile application for all your NFL News and Updates</Typography>
@@ -88,7 +97,7 @@ class Portfolio extends Component {
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
-                    <ExpansionPanel expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
+                    <ExpansionPanel className={classes.design} expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography className={classes.heading}>Big Data and Data Analytics</Typography>
                             <Typography className={classes.secondaryHeading}>Crypto-currency analysis using Python and Bokeh</Typography>
