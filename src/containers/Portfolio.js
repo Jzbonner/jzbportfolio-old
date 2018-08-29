@@ -17,7 +17,7 @@ const styles = theme => ({
         backgroundColor: 'rgba(255,157,60, 0.3)', 
     },
     design: {
-        backgroundColor: '#e8f5e9',
+        backgroundColor: '#E9E9EA',
     },
     heading: {
         fontSize: theme.typography.pxToRem(15),
@@ -25,11 +25,17 @@ const styles = theme => ({
         fontWeight: 'bold',
         flexBasis: '33.33%',
         flexShrink: 0,
-        marginLeft: 10,
+        padding: 10, 
+        textAlign: 'center', 
     },
     secondaryHeading: {
+        borderLeft: '2px solid grey', 
         fontSize: theme.typography.pxToRem(15),
         color: theme.palette.text.secondary,
+        padding: 10,
+    },  
+    description: {
+        fontFamily: 'Encode Sans Semi Expanded',
     },
   });
 
@@ -76,60 +82,58 @@ class Portfolio extends Component {
                 <div className={classes.root}>
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Financial Instrument Tracker <br/> <i className="fas fa-money-check-alt fit-icon"></i><i class="fas fa-hand-holding-usd fit-icon"></i></Typography>
+                            <Typography className={classes.heading}><i class="fas fa-hand-holding-usd fit-icon"></i><br />Financial Instrument Tracker</Typography>
                             <Typography className={classes.secondaryHeading}>A tool for tracking financial information for various equities, commodities, stocks and other financial instruments</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Typography> 
+                            <Typography className={classes.description}> 
                                 Link to repository <a href="https://github.com/Jzbonner/FinancialInstrumentTracker">Financial Instrument Tracker Source Code</a>. 
                                 Built off of financial data that is both web scraped and collected from database systems, this financial tool 
                                 enables users to accurately track financial highlights of a particular commodity or equity.<br />    
                                 <div className="row fit-description">
-                                    <div className="col-xs-6 border">
-                                        <ul>
-                                            <li>Commodities</li>
-                                            <li>Equities</li>
-                                            <li>Crypto Assets</li> 
-                                            <li>Historical Data</li>
-                                            <li>Web Scraped <br />News Indicators</li>
-                                            <li>Market Analysis</li>    
-                                        </ul>
+                                    <div className="col-md-6"><img src={FIT} className="port-fit" alt="fit" /></div> 
+                                    <div className="col-md-6">
+                                            <p className="fit-secondary">Commodities<br /><br />
+                                            Equities<br /><br />
+                                            Crypto Assets<br /><br /> 
+                                            Historical Data<br /><br />
+                                            Web Scraped News Indicators<br />
+                                            & Market Analysis</p>
                                     </div>
-                                    <div className="col-xs-6 border"><img src={FIT} className="port-fit" alt="fit" /></div> 
                                 </div>                                                                                                            
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>NFL React Native App</Typography>
+                            <Typography className={classes.heading}><i className="fas fa-football-ball fit-icon"></i><br />NFL React Native App</Typography>
                             <Typography className={classes.secondaryHeading}>A web/mobile application for all your NFL News and Updates</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Typography>
-                                Details for Portfolio Project 2
+                            <Typography className={classes.description}>
+                                  Project Details Coming Soon...
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Big Data and Data Analytics</Typography>
+                            <Typography className={classes.heading}><i className="fas fa-database fit-icon"></i><br />Big Data and Data <br /> Analytics</Typography>
                             <Typography className={classes.secondaryHeading}>Crypto-currency analysis using Python and Bokeh</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Typography>
-                                Details for Portfolio Project 3
+                            <Typography className={classes.description}>
+                                  Project Details Coming Soon...
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
-                    <ExpansionPanel disabled expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
+                    <ExpansionPanel className={classes.design} expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Business Intelligence and Product Management</Typography>
+                            <Typography className={classes.heading}><i className="fas fa-fingerprint fit-icon"></i><br />Business Intelligence</Typography>
                             <Typography className={classes.secondaryHeading}>In Development</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Typography>
-                                Details for Portfolio Project 4
+                            <Typography className={classes.description}>
+                                Project Details Coming Soon...
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
