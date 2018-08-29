@@ -204,10 +204,27 @@ a.resume-link {
   text-indent: 15px; 
 }
 
+.border {
+  border: 2px solid black; 
+}
+
+.fit-description {
+  border: 2px solid black; 
+  margin-top: 10px; 
+}
+
+.port-fit {
+  display: block; 
+  height: 175px; 
+  padding: 8px; 
+  margin: auto; 
+  width: 175px; 
+}
+
 .fit-icon {
   color: #DCB680; 
   font-size: 20px; 
-  padding: 5px; 
+  padding: 8px; 
 }
 
  /* Navbar Section */
