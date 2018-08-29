@@ -7,6 +7,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
+import FIT from '../assets/Port-FIT.png'
 import Footer from './Footer';
 import '../App.css';
 
@@ -24,6 +25,7 @@ const styles = theme => ({
         fontWeight: 'bold',
         flexBasis: '33.33%',
         flexShrink: 0,
+        marginLeft: 10,
     },
     secondaryHeading: {
         fontSize: theme.typography.pxToRem(15),
@@ -74,15 +76,27 @@ class Portfolio extends Component {
                 <div className={classes.root}>
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}>Financial Instrument Tracker <br/> <i className="fas fa-money-check-alt fit-icon"></i><i className="fas fa-thumbtack fit-icon"></i></Typography>
+                            <Typography className={classes.heading}>Financial Instrument Tracker <br/> <i className="fas fa-money-check-alt fit-icon"></i><i class="fas fa-hand-holding-usd fit-icon"></i></Typography>
                             <Typography className={classes.secondaryHeading}>A tool for tracking financial information for various equities, commodities, stocks and other financial instruments</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography> 
                                 Link to repository <a href="https://github.com/Jzbonner/FinancialInstrumentTracker">Financial Instrument Tracker Source Code</a>. 
                                 Built off of financial data that is both web scraped and collected from database systems, this financial tool 
-                                enables users to accurately track financial highlights of a particular commodity or equity.<br />     
-                                                                                   
+                                enables users to accurately track financial highlights of a particular commodity or equity.<br />    
+                                <div className="row fit-description">
+                                    <div className="col-xs-6 border">
+                                        <ul>
+                                            <li>Commodities</li>
+                                            <li>Equities</li>
+                                            <li>Crypto Assets</li> 
+                                            <li>Historical Data</li>
+                                            <li>Web Scraped <br />News Indicators</li>
+                                            <li>Market Analysis</li>    
+                                        </ul>
+                                    </div>
+                                    <div className="col-xs-6 border"><img src={FIT} className="port-fit" alt="fit" /></div> 
+                                </div>                                                                                                            
                             </Typography>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
