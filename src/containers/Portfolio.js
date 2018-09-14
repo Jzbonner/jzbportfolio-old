@@ -25,14 +25,14 @@ const styles = theme => ({
         fontWeight: 'bold',
         flexBasis: '33.33%',
         flexShrink: 0,
-        padding: 10, 
+        padding: 8, 
         textAlign: 'center', 
     },
     secondaryHeading: {
         borderLeft: '2px solid grey', 
         fontSize: theme.typography.pxToRem(15),
         color: theme.palette.text.secondary,
-        padding: 10,
+        padding: 8,
     },  
     description: {
         fontFamily: 'Encode Sans Semi Expanded',
