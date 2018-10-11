@@ -6,10 +6,7 @@ import ResumePic from '../assets/resume.png';
 import '../App.css';
 
 {/* 
-    Add Hover Functionality to Paper Material UI using the onMouseEnter event and onMouseLeave event. 
-    Check out this documentation for reference: https://material-ui.com/utils/popover/
-
-    SIDENOTE: Update Resume design for 2018
+    TODO: Update Resume design for 2018 and link Grad Resume to page 
 */}
 
 export default class Resume extends Component {
