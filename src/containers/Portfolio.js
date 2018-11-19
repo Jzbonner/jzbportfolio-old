@@ -106,8 +106,8 @@ class Portfolio extends Component {
                     </ExpansionPanel>
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography className={classes.heading}><i className="fas fa-football-ball fit-icon"></i><br />NFL React Native App</Typography>
-                            <Typography className={classes.secondaryHeading}>A web/mobile application for all your NFL News and Updates</Typography>
+                            <Typography className={classes.heading}><i className="fas fa-mobile fit-icon"></i><br />React Native App</Typography>
+                            <Typography className={classes.secondaryHeading}>In Development</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography className={classes.description}>
@@ -118,7 +118,7 @@ class Portfolio extends Component {
                     <ExpansionPanel className={classes.design} expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography className={classes.heading}><i className="fas fa-database fit-icon"></i><br />Big Data and Data <br /> Analytics</Typography>
-                            <Typography className={classes.secondaryHeading}>Crypto-currency analysis using Python and Bokeh</Typography>
+                            <Typography className={classes.secondaryHeading}>In Development</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
                             <Typography className={classes.description}>

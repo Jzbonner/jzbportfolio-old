@@ -16,6 +16,11 @@ export default class Bio extends Component {
                         in both extracurricular activities as well as those that would further my academic career. 
                         My interest in Computer and Data Science grew from the course work I was able to complete 
                         during my undergraduate career. 
+                        </p>  
+                        <p className="general-interest-2">
+                        I have often found direction by volunteering my time to aid in community organized projects and services. 
+                        General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
+                        Independent App Development, and Financial and Quantitative Analysis
                         </p> 
 
                         <table className="university-section">
@@ -63,12 +68,6 @@ export default class Bio extends Component {
                         </table>
                         <br /> 
                         <p className="general-interest-3"><i className=" ql fas fa-quote-left"></i> <i className="qr fas fa-quote-right"></i> Gaining experience in life is about finding your medium in a world of extremes </p>
-                        <p className="general-interest-2">
-                        I have often found direction by volunteering my time to aid in community organized projects and services. 
-                        General Interest include: Intermediate Spanish, Kaggle Data Science Competition, Hacker Rank Competition, 
-                        Independent App Development, and Financial and Quantitative Analysis
-                        <br /> 
-                        </p> 
                     </div>
                 </div> 
                 <Footer />
