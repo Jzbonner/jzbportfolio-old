@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import ResumePic from '../assets/resume.png';
-
 import '../App.css';
 
 {/* 

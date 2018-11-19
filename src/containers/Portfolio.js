@@ -7,7 +7,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-import FIT from '../assets/Port-FIT.png'
+import FIT from '../assets/Port-FIT.png';
 import Footer from './Footer';
 import '../App.css';
 
