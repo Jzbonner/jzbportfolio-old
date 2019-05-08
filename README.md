@@ -6,4 +6,4 @@ Project Portfolio site built using [React.js](https://reactjs.org/) and the [Mat
 #### Want to Collaborate? Need technical support? Freelance opportunities? 
 * 📧 Email: jarrett.bonner@gmail.com
 * 🌎️ LinkedIn: https://www.linkedin.com/in/jarrett-bonner-28048339/
-* 💻️ Website: http://jzb-co.surge.sh 
+* 💻️ Website: http://jzb-co.surge.sh
