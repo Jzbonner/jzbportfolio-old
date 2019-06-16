@@ -2,9 +2,7 @@
  * in order to modularize the layout of the application. Use state
  * management in order to properly set and get parameters.
  *
- * 1. Create Main App constructor {set parameters}
- * 2. Create Navbar component
- * 3. Set scaffold (/collapse) to default and toggle onClick
+ * 1. Set scaffold (/collapse) to default and toggle onClick
  * */
 
 import React, {Component} from 'react';
