@@ -339,27 +339,32 @@ a.resume-link {
 .backend {
   width: 72%;
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .frontend {
   width: 93%;
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .js {
   width: 84%;
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .product-manage {
   width: 76%;
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .python {
   width: 75%;
   background-color: rgba(128, 128, 128, 0.7);
-  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .backend,

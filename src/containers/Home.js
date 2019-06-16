@@ -35,36 +35,36 @@ export default class Home extends Component {
             <div className="container-skills">
               <div className="skills frontend">
                 {' '}
-                <i className="fas fa-marker"></i> FrontEnd (HTML5, CSS3, Git,
-                and Markdown) 93%
+                93% <i className="fas fa-marker"></i> FrontEnd (HTML5, CSS3,
+                Git, and Markdown)
               </div>
             </div>
             <div className="container-skills">
               <div className="skills js">
                 {' '}
-                <i className="fas fa-marker"></i> JavaScript (React, Angular,
-                Vue, Babel and JSX) 84%
+                84% <i className="fas fa-marker"></i> JavaScript (React,
+                Angular, Vue, Babel and JSX)
               </div>
             </div>
             <div className="container-skills">
               <div className="skills product-manage">
                 {' '}
-                <i className="fas fa-marker"></i> Product Development (Tableau,
-                Bokeh and Excel) 76%
+                76% <i className="fas fa-marker"></i> Product Development
+                (Tableau, Bokeh and Excel)
               </div>
             </div>
             <div className="container-skills">
               <div className="skills python">
                 {' '}
-                <i className="fas fa-marker"></i> Python (Data Science and
-                Quantitative Analysis) 75%
+                75% <i className="fas fa-marker"></i> Python (Data Science and
+                Quantitative Analysis)
               </div>
             </div>
             <div className="container-skills">
               <div className="skills backend">
                 {' '}
-                <i className="fas fa-marker"></i> BackEnd (APIs, JSON, SQL, and
-                Machine Learning) 72%
+                72% <i className="fas fa-marker"></i> BackEnd (APIs, JSON, SQL,
+                and Machine Learning)
               </div>
             </div>
           </div>
