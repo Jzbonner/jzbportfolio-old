@@ -43,7 +43,7 @@ export default class Bio extends Component {
               </tbody>
             </table>
 
-            {/* Additional Design Elements */}
+            {/* Course Listing Section */}
             <table className="course-overview">
               <tbody>
                 <tr>

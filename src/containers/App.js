@@ -3,6 +3,11 @@
  * management in order to properly set and get parameters.
  *
  * 1. Set scaffold (/collapse) to default and toggle onClick
+ * 2. Pages directory for Bio, Experience, Resume, Portfolio
+ * 3. Animation functionality through Material-U
+ * 4. Skillbar functionality and design through progress-bar web
+ * component
+ * 5.  Clean up assets directory
  * */
 
 import React, {Component} from 'react';

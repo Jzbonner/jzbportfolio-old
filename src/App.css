@@ -47,23 +47,24 @@ html,
 
 /* Home Section */
 .home-pic {
-  border: 2px solid #e3e5e4;
+  border: 1px solid #e3e5e4;
   border-radius: 360px;
   display: block;
   height: 200px;
   margin: auto;
   margin-bottom: 35px;
-  margin-top: 55px;
+  margin-top: 65px;
   width: 200px;
 }
 
 .home-section-1 {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top: 20px;
 }
 
 .home-section-2 {
   color: #808080;
-  font-size: 18px;
+  font-size: 28px;
   padding-top: 12px;
   text-align: center;
 }
@@ -329,13 +330,14 @@ a.resume-link {
 
 /* Skill Bar Section */
 .container-skills {
-  background-color: rgba(83, 129, 149, 0.6);
+  /*background-color: rgba(83, 129, 149, 0.6);*/
   border-radius: 5px;
+  margin-top: 12px;
   width: 100%;
 }
 
 .backend {
-  width: 62%;
+  width: 72%;
   background-color: rgba(128, 128, 128, 0.7);
   border-radius: 2px;
 }
@@ -350,12 +352,12 @@ a.resume-link {
   border-radius: 2px;
 }
 .product-manage {
-  width: 71%;
+  width: 76%;
   background-color: rgba(128, 128, 128, 0.7);
   border-radius: 2px;
 }
 .python {
-  width: 61%;
+  width: 75%;
   background-color: rgba(128, 128, 128, 0.7);
   border-radius: 2px;
 }
@@ -366,14 +368,17 @@ a.resume-link {
 .product-manage,
 .python {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  text-indent: 10px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .skills {
   color: white;
-  line-height: 15px;
+  line-height: 28px;
   font-size: 12px;
   padding-right: 22px;
-  text-align: right;
+  text-align: left;
 }
 
 .skills-title {
