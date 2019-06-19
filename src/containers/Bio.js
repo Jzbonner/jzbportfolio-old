@@ -12,18 +12,12 @@ export default class Bio extends Component {
           <div className="col-lg-12">
             <h2 className="about-title">About</h2>
             <p className="general-interest">
-              Aside from defining myself academically, I have always strived to
-              be a well rounded person in both extracurricular activities as
-              well as those that would further my academic career. My interest
-              in Computer and Data Science grew from the course work I was able
-              to complete during my undergraduate career.
-            </p>
-            <p className="general-interest-2">
-              I have often found direction by volunteering my time to aid in
-              community organized projects and services. General Interest
-              include: Intermediate Spanish, Kaggle Data Science Competition,
-              Hacker Rank Competition, Independent App Development, and
-              Financial and Quantitative Analysis
+              Driven by a passion for the field, I have converted my academic
+              background into a multidisciniplinary skill set. Through course
+              work at UNC and experience working in industry I've found myself
+              taking an interest in kaggle competitions, freelance web and
+              mobile development, spanish as a second language, and financial
+              engineering research
             </p>
 
             <table className="university-section">

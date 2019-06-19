@@ -15,9 +15,9 @@ export default class Home extends Component {
               {' '}
               Software Engineering is the toolset for building a better
               tomorrow. Web Application development, technical writing,
-              quantitative analysis and data insights are fields that hone my
-              skill set in. Previous academic experiences in computer and
-              information science, internships at mechanical/electrical
+              quantitative analysis and data insights are fields that I have
+              honed my skill set in. Previous academic experiences in computer
+              and information science, internships at mechanical/electrical
               engineering firms, and freelance projects for clients have molded
               me with a keen interest in practical design and software
               development.
@@ -35,36 +35,31 @@ export default class Home extends Component {
             <div className="container-skills">
               <div className="skills frontend">
                 {' '}
-                93% <i className="fas fa-marker"></i> FrontEnd (HTML5, CSS3,
-                Git, and Markdown)
+                93% <i className="fas fa-marker"></i> FrontEnd
               </div>
             </div>
             <div className="container-skills">
               <div className="skills js">
                 {' '}
-                84% <i className="fas fa-marker"></i> JavaScript (React,
-                Angular, Vue, Babel and JSX)
+                84% <i className="fas fa-marker"></i> JavaScript
               </div>
             </div>
             <div className="container-skills">
               <div className="skills product-manage">
                 {' '}
                 76% <i className="fas fa-marker"></i> Product Development
-                (Tableau, Bokeh and Excel)
               </div>
             </div>
             <div className="container-skills">
               <div className="skills python">
                 {' '}
-                75% <i className="fas fa-marker"></i> Python (Data Science and
-                Quantitative Analysis)
+                75% <i className="fas fa-marker"></i> Python
               </div>
             </div>
             <div className="container-skills">
               <div className="skills backend">
                 {' '}
-                72% <i className="fas fa-marker"></i> BackEnd (APIs, JSON, SQL,
-                and Machine Learning)
+                72% <i className="fas fa-marker"></i> BackEnd
               </div>
             </div>
           </div>
