@@ -9,17 +9,7 @@ export default class Bio extends Component {
     return (
       <div className="bio">
         <div className="row">
-          <div className="col-lg-12">
-            <h2 className="about-title">About</h2>
-            <p className="general-interest">
-              Driven by a passion for the field, I have converted my academic
-              background into a multidisciniplinary skill set. Through course
-              work at UNC and experience working in industry I've found myself
-              taking an interest in kaggle competitions, freelance web and
-              mobile development, spanish as a second language, and financial
-              engineering research
-            </p>
-
+          <div className="col-lg-6">
             <table className="university-section">
               <tbody>
                 <tr>
@@ -36,7 +26,20 @@ export default class Bio extends Component {
                 </tr>
               </tbody>
             </table>
-
+          </div>
+          <div className="col-lg-6">
+            <p className="general-interest">
+              Driven by a passion for the field, I have converted my academic
+              background into a multidisciniplinary skill set. Through course
+              work at UNC and experience working in industry I've found myself
+              taking an interest in kaggle competitions, freelance web and
+              mobile development, spanish as a second language, and financial
+              engineering research
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12">
             {/* Course Listing Section */}
             <table className="course-overview">
               <tbody>
