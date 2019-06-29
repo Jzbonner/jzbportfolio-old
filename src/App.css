@@ -88,6 +88,10 @@ html,
 
 .general-interest {
   margin-top: 10px;
+  padding-left: 15px;
+  border-bottom: 2px solid grey;
+  width: 89%;
+  font-size: 14px;
 }
 
 .general-interest-3 {
@@ -105,8 +109,8 @@ html,
 }
 
 .general-interest-education {
-  font-size: 14px;
-  text-align: left;
+  font-size: 12px;
+  text-align: right;
 }
 
 .course-title,
@@ -124,9 +128,12 @@ html,
 }
 
 .course-overview {
-  border-bottom: 2px solid #aaaaaa;
+  border: 2px solid rgba(235, 222, 213, 0.8);
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
   margin-bottom: 35px;
 }
 
@@ -139,19 +146,23 @@ html,
 }
 
 .university-section {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
+  margin-top: 5px;
+  width: 100%;
 }
 
 .university-name {
-  padding: 15px;
+  padding-left: 8px;
+}
+
+.university-logo {
+  width: 74px;
 }
 
 .uni-logo-pic {
+  float: right;
   height: 55px;
   margin: auto;
-  margin-top: -25px;
+  margin-bottom: 28px;
   width: 55px;
 }
 
@@ -252,8 +263,8 @@ a.resume-link {
 
 /* Navbar Section */
 .navbar {
-  border-right: 8px solid rgba(95, 125, 145, 0.9);
-  border-radius: 2px;
+  border: 2px solid rgba(95, 125, 145, 0.9);
+  border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -267,8 +278,11 @@ a.resume-link {
 }
 
 .nav-index {
-  height: 30px;
-  width: 30px;
+  display: block;
+  margin: auto;
+  padding: 0px;
+  height: 45px;
+  width: 50px;
   -webkit-filter: invert(98%);
   filter: invert(98%);
 }
@@ -295,7 +309,7 @@ a.resume-link {
 .table-markee {
   border-bottom: 2px solid #737987;
   margin: auto;
-  width: 90%;
+  width: 60%;
 }
 
 .portfolio-logo {

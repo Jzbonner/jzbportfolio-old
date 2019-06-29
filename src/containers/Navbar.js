@@ -14,16 +14,14 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-light">
-        <button
-          className="navbar-toggler"
-          type="button"
+        <img 
+          className="navbar-toggler nav-index"
           data-toggle="collapse"
           data-target="#navbarCollapseItems"
           aria-controls="navbarCollapseItems"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <img src={NavIndex} className="nav-index" alt="nav-index" />
-        </button>
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+          src={NavIndex} alt="nav-index" />
         <div className="collapse navbar-collapse" id="navbarCollapseItems">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
