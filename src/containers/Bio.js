@@ -10,32 +10,40 @@ export default class Bio extends Component {
       <div className="bio">
         <div className="row">
           <div className="col-lg-12">
-            <h2 className="about-title">About</h2>
-            <p className="general-interest">
-              Driven by a passion for the field, I have converted my academic
-              background into a multidisciniplinary skill set. Through course
-              work at UNC and experience working in industry I've found myself
-              taking an interest in kaggle competitions, freelance web and
-              mobile development, spanish as a second language, and financial
-              engineering research
-            </p>
-
-            <table className="university-section">
-              <tbody>
-                <tr>
-                  <td className="university-logo">
-                    <img className="uni-logo-pic" src={UNC} alt="unc_logo" />
-                  </td>
-                  <td className="university-name">
-                    <p className="general-interest-education">
-                      University of North Carolina at Chapel Hill <br />{' '}
-                      Bachelor's of Science in Information Science
-                      <br />
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="row">
+              <div className="col-lg-6">
+                <table className="university-section">
+                  <tbody>
+                    <tr>
+                      <td className="university-logo">
+                        <img
+                          className="uni-logo-pic"
+                          src={UNC}
+                          alt="unc_logo"
+                        />
+                      </td>
+                      <td className="university-name">
+                        <p className="general-interest-education">
+                          University of North Carolina at Chapel Hill <br />{' '}
+                          Bachelor's of Science in Information Science
+                          <br />
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="col-lg-6">
+                <p className="general-interest">
+                  Driven by a passion for the field, I have converted my
+                  academic background into a multidisciniplinary skill set.
+                  Through course work at UNC and experience working in industry
+                  I've found myself taking an interest in kaggle competitions,
+                  freelance web and mobile development, spanish as a second
+                  language, and financial engineering research
+                </p>
+              </div>
+            </div>
 
             {/* Course Listing Section */}
             <table className="course-overview">
