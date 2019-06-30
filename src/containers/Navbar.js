@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {slide as menu} from 'react-burger-menu'; 
 
 import NavIndex from '../assets/source-code.png';
 import '../App.css';
