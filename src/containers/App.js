@@ -10,8 +10,8 @@
  * 5.  Clean up assets directory
  * */
 
-import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Sidebar from './Sidebar';
 import Bio from './Bio';
@@ -78,7 +78,7 @@ export default class App extends Component {
             {/* 
                         Navbar Section with Link and BrowserRouter functionality 
                     */}
-            <div className="col-lg-2">
+            <div className="col-lg-1">
               <Navbar />
             </div>
             {/*
@@ -101,7 +101,7 @@ export default class App extends Component {
                         Section for displaying the actual content that is triggered 
                         from the navbar/sidebar sections 
                     */}
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <div className="content-view">
                 {routes.map((route, index) => (
                   <Route

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Footer from './Footer';
 import UNC from '../assets/unc_logo.png';
 import MSFT from '../assets/mcrsft.png';
@@ -119,7 +119,7 @@ export default class Bio extends Component {
             <p className="general-interest-3">
               <i className=" ql fas fa-quote-left"></i>{' '}
               <i className="qr fas fa-quote-right"></i> Gaining experience in
-              life is about finding your medium in a world of extremes{' '}
+              life is about <br />finding your medium <br />in a world of extremes{' '}
             </p>
           </div>
         </div>
