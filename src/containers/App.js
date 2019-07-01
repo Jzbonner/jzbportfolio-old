@@ -2,65 +2,65 @@
  * in order to modularize the layout of the application. Use state
  * management in order to properly set and get parameters.
  *
- * 1. Set scaffold (/collapse) to default and toggle onClick
- * 2. Pages directory for Bio, Experience, Resume, Portfolio
- * 3. Animation functionality through Material-U
+ * 1. Redesign font layout on Bio page 
+ * 2. Add content to Experience Page 
+ * 3. Trim paragraph text on Portfolio Page
  * 4. Skillbar functionality and design through progress-bar web
  * component
  * 5.  Clean up assets directory
+ * 6. Add links to Resume page
  * */
 
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Sidebar from './Sidebar';
-import Bio from './Bio';
-import Home from './Home';
-import Experience from './Experience';
-import Resume from './Resume';
-import Portfolio from './Portfolio';
-import Navbar from './Navbar';
+import Sidebar from "./Sidebar";
+import Bio from "./Bio";
+import Home from "./Home";
+import Experience from "./Experience";
+import Resume from "./Resume";
+import Portfolio from "./Portfolio";
+import Navbar from "./Navbar";
 
-import NavIndex from '../assets/source-code.png';
-import '../App.css';
+import "../App.css";
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Home />,
+    main: () => <Home />
   },
   {
-    path: '/Home',
+    path: "/Home",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Home />,
+    main: () => <Home />
   },
   {
-    path: '/Bio',
+    path: "/Bio",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Bio />,
+    main: () => <Bio />
   },
   {
-    path: '/Experience',
+    path: "/Experience",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Experience />,
+    main: () => <Experience />
   },
   {
-    path: '/Portfolio',
+    path: "/Portfolio",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Portfolio />,
+    main: () => <Portfolio />
   },
   {
-    path: '/Resume',
+    path: "/Resume",
     exact: true,
     sidebar: () => <Sidebar />,
-    main: () => <Resume />,
-  },
+    main: () => <Resume />
+  }
 ];
 
 export default class App extends Component {

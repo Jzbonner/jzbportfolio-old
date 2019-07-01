@@ -264,38 +264,21 @@ a.resume-link {
 }
 
 /* Navbar Section */
-.navbar {
-  border: 2px solid rgba(95, 125, 145, 0.9);
-  border-radius: 5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.navbar:hover {
-  border-right: 8px solid rgba(92, 92, 91, 0.9);
-}
-
 .nav-link {
   padding-top: 5px;
 }
 
 .nav-id {
-  color: #373536; 
-}
-
-.nav-index {
-  display: block;
-  margin: auto;
-  padding: 0px;
-  height: 45px;
-  width: 50px;
-  -webkit-filter: invert(98%);
-  filter: invert(98%);
+  color: #4b4849; 
 }
 
 .nav-item {
   font-size: 21px;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold; 
+  padding-top: 10px; 
+  padding-right: 10px; 
+  text-align: right; 
 }
 
 #icon {
@@ -308,6 +291,25 @@ a.resume-link {
   padding-top: 20px; 
 }
 
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #184b01;
+}
+
+.bm-item {
+  outline: none; 
+}
 
 /* Sidebar Infographic Section */
 .sidebar-title {
