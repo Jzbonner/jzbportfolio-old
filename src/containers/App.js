@@ -5,8 +5,6 @@
  * 1. Redesign font layout on Bio page 
  * 2. Add content to Experience Page 
  * 3. Trim paragraph text on Portfolio Page
- * 4. Skillbar functionality and design through progress-bar web
- * component
  * 5.  Clean up assets directory
  * 6. Add links to Resume page
  * */

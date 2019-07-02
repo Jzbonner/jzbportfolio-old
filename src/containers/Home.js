@@ -2,15 +2,21 @@ import React, { Component } from "react";
 import SkillBar from "react-skillbars"; 
 
 import Footer from "./Footer";
-import Student from "../assets/student.png";
 import Profile from "../assets/profile.jpg";
 import "../App.css";
 
 
 const skills =[
-  {type: "JavaScript", level: 85},
-  {type: "Python", level: 75}
+  {type: "Front-end", level: 85},
+  {type: "JavaScript", level: 80},
+  {type: "Python", level: 72},
+  {type: "Back-end", level: 70},
+  {type: "UI/UX", level: 74}
 ];
+
+const colors = { 
+
+}; 
 
 
 
@@ -45,7 +51,7 @@ export default class Home extends Component {
 
         <div className="row">
           <div className="col-lg-9">
-            <SkillBar skills={skills} /> 
+            <SkillBar skills={skills} height={19} /> 
           </div>
           <div className="col-lg-2" />
         </div>
