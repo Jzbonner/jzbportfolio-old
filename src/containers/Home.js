@@ -53,10 +53,10 @@ export default class Home extends Component {
           <div className="col-lg-9">
             <SkillBar skills={skills} height={19} /> 
           </div>
-          <div className="col-lg-2" />
-        </div>
-        <Footer />
+        <div className="col-lg-2" />
       </div>
+      <Footer />
+    </div>
     );
   }
 }
