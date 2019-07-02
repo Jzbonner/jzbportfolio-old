@@ -1,9 +1,18 @@
 import React, { Component } from "react";
+import SkillBar from "react-skillbars"; 
+
 import Footer from "./Footer";
 import Student from "../assets/student.png";
 import Profile from "../assets/profile.jpg";
-
 import "../App.css";
+
+
+const skills =[
+  {type: "JavaScript", level: 85},
+  {type: "Python", level: 75}
+];
+
+
 
 export default class Home extends Component {
   render() {
@@ -36,36 +45,7 @@ export default class Home extends Component {
 
         <div className="row">
           <div className="col-lg-9">
-            <div className="container-skills">
-              <div className="skills frontend">
-                {" "}
-                93% <i className="fas fa-marker" /> FrontEnd
-              </div>
-            </div>
-            <div className="container-skills">
-              <div className="skills js">
-                {" "}
-                84% <i className="fas fa-marker" /> JavaScript
-              </div>
-            </div>
-            <div className="container-skills">
-              <div className="skills product-manage">
-                {" "}
-                76% <i className="fas fa-marker" /> Product Development
-              </div>
-            </div>
-            <div className="container-skills">
-              <div className="skills python">
-                {" "}
-                75% <i className="fas fa-marker" /> Python
-              </div>
-            </div>
-            <div className="container-skills">
-              <div className="skills backend">
-                {" "}
-                72% <i className="fas fa-marker" /> BackEnd
-              </div>
-            </div>
+            <SkillBar skills={skills} /> 
           </div>
           <div className="col-lg-2" />
         </div>
