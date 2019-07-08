@@ -1,13 +1,11 @@
-/* Pass prop value from the App.js constructor to the Navbar component
- * in order to modularize the layout of the application. Use state
- * management in order to properly set and get parameters.
- *
+/* 
+TODO: 
  * 1. Redesign font layout on Bio page 
  * 2. Add content to Experience Page 
  * 3. Trim paragraph text on Portfolio Page
  * 5. Clean up assets directory
- * 6. Add links to Resume page
- * */
+ * 6. Add links to Resume page 
+*/
 
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
