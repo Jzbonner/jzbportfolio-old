@@ -5,7 +5,7 @@
  * 1. Redesign font layout on Bio page 
  * 2. Add content to Experience Page 
  * 3. Trim paragraph text on Portfolio Page
- * 5.  Clean up assets directory
+ * 5. Clean up assets directory
  * 6. Add links to Resume page
  * */
 
