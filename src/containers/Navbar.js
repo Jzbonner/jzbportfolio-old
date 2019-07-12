@@ -36,35 +36,35 @@ export default class Navbar extends Component {
         <li onClick={() => this.closeMenu()} className="nav-item">
           <Link to="/Home" id="home" className="nav-link">
             <p className="nav-id">
-              <i id="icon" className="fas fa-circle-notch" /> Home{" "}
+              <i id="icon" className="fas fa-circle-notch" /> HOME{" "}
             </p>
           </Link>
         </li>
         <li onClick={() => this.closeMenu()} className="nav-item">
           <Link to="/Bio" className="nav-link">
             <p className="nav-id">
-              <i id="icon" className="far fa-user-circle" /> Bio{" "}
+              <i id="icon" className="far fa-user-circle" /> BIO{" "}
             </p>
           </Link>
         </li>
         <li onClick={() => this.closeMenu()} className="nav-item">
           <Link to="/Experience" className="nav-link">
             <p className="nav-id">
-              <i id="icon" className="fas fa-flask" /> Experience{" "}
+              <i id="icon" className="fas fa-flask" /> EXPERIENCE{" "}
             </p>
           </Link>
         </li>
         <li onClick={() => this.closeMenu()} className="nav-item">
           <Link to="/Portfolio" className="nav-link">
             <p className="nav-id">
-              <i id="icon" className="far fa-file-alt" /> Portfolio{" "}
+              <i id="icon" className="far fa-file-alt" /> PORTFOLIO{" "}
             </p>
           </Link>
         </li>
         <li onClick={() => this.closeMenu()} className="nav-item">
           <Link to="/Resume" className="nav-link">
             <p className="nav-id">
-              <i id="icon" className="fas fa-align-right" /> Resume{" "}
+              <i id="icon" className="fas fa-align-right" /> RESUME{" "}
             </p>
           </Link>
         </li>

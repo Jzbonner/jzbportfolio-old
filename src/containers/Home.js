@@ -1,24 +1,39 @@
 import React, { Component } from "react";
-import SkillBar from "react-skillbars"; 
+import SkillBar from "react-skillbars";
 
 import Footer from "./Footer";
 import Profile from "../assets/profile.jpg";
 import "../App.css";
 
-
-const skills =[
-  {type: "Front-end", level: 85},
-  {type: "JavaScript", level: 80},
-  {type: "Python", level: 72},
-  {type: "Back-end", level: 70},
-  {type: "UI/UX", level: 74}
+const skills = [
+  { type: "Front-end", level: 85 },
+  { type: "JavaScript", level: 80 },
+  { type: "Python", level: 72 },
+  { type: "Back-end", level: 70 },
+  { type: "UI/UX", level: 74 }
 ];
 
-const colors = { 
-
-}; 
-
-
+const colors = {
+  bar: "#FFAF4C",
+  title: {
+    text: {
+      hue: {
+        minimum: 80,
+        maximum: 150
+      },
+      saturation: 20,
+      level: {
+        minimum: 60,
+        maximum: 90
+      }
+    },
+    background: {
+      hue: 20,
+      saturation: 80,
+      level: 40
+    }
+  }
+};
 
 export default class Home extends Component {
   render() {
@@ -51,12 +66,12 @@ export default class Home extends Component {
 
         <div className="row">
           <div className="col-lg-9">
-            <SkillBar skills={skills} height={19} /> 
+            <SkillBar skills={skills} colors={colors} height={22} />
           </div>
-        <div className="col-lg-2" />
+          <div className="col-lg-2" />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
     );
   }
 }
