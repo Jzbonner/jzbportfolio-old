@@ -96,15 +96,14 @@ html,
 
 .general-interest-3 {
   color: #22230F; 
-  font-size: 22px;
-  font-weight: bold; 
+  font-family: 'Great Vibes', cursive; 
+  font-size: 40px;
   padding-right: 35px;
   text-align: right;
 }
 
 .general-interest,
 .general-interest-2,
-.general-interest-3,
 .general-interest-education {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   padding-bottom: 15px;
@@ -112,6 +111,7 @@ html,
 
 .general-interest-education {
   font-size: 12px;
+  font-weight: bold;
   text-align: right;
 }
 

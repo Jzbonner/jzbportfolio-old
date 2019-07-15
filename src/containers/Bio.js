@@ -16,8 +16,8 @@ export default class Bio extends Component {
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      University of North Carolina at Chapel Hill <br />{' '}
-                      Bachelor's of Science in Information Science
+                      UNC CHAPEL HILL<br />{' '}
+                      MAJORED IN INFORMATION SCIENCE
                       <br />
                     </p>
                   </td>
@@ -32,7 +32,7 @@ export default class Bio extends Component {
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      Microsoft Technology Associate
+                      MICROSOFT TECHNOLOGY ASSOCIATE
                       <br />
                     </p>
                   </td>
@@ -47,7 +47,7 @@ export default class Bio extends Component {
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      Microsoft Certified Technology Specialist
+                      MICROSOFT CERTIFIED TECHNOLOGY SPECIALIST
                       <br />
                     </p>
                   </td>
@@ -81,9 +81,8 @@ export default class Bio extends Component {
                     Retrieval and Organizing Systems
                   </td>
                   <td className="course-description">
-                    Foundational core concepts and core techniques in
-                    information organization, information retrieval, and data
-                    mining
+                    Conceptual knowledge on information retrieval techniques,
+                    information organization practices, and data mining and analysis
                   </td>
                 </tr>
                 <tr>
@@ -94,10 +93,9 @@ export default class Bio extends Component {
                     and Interactions{' '}
                   </td>
                   <td className="course-description">
-                    Overview of key areas and concepts in information science,
-                    to include task modeling, information seeking behavior,
-                    search behavior, human-computer interactions, usability,
-                    user interfaces, social media and social media analysis.
+                    Focus on data visualization and task modeling, information search
+                    behavior, human-computer interactions, user interfaces, 
+                    and sentiment analysis.
                   </td>
                 </tr>
                 <tr>
@@ -107,10 +105,9 @@ export default class Bio extends Component {
                     Organization of Information{' '}
                   </td>
                   <td className="course-description">
-                    Introduction to the problems and methods of organizing
-                    information, including information structures, knowledge
-                    schemas, data structures, terminological control, index
-                    language functions, and implications for searching
+                    Practice implementing database modeling and schemas,
+                    data structures and algorithms, terminological control, and 
+                    index language functions 
                   </td>
                 </tr>
               </tbody>
@@ -118,8 +115,8 @@ export default class Bio extends Component {
             <br />
             <p className="general-interest-3">
               <i className=" ql fas fa-quote-left"></i>{' '}
-              <i className="qr fas fa-quote-right"></i> Gaining experience in
-              life is about <br />finding your medium <br />in a world of extremes{' '}
+              <i className="qr fas fa-quote-right"></i> - Gaining experience in
+              life is about <br />finding your medium in a<br /> world of extremes{' '}
             </p>
           </div>
         </div>
