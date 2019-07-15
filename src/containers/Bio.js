@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Footer from "./Footer";
 import UNC from "../assets/unc_logo.png";
 import MSFT from "../assets/mcrsft.png";
+import Note from '../assets/notebook.png'; 
 
 import "../App.css";
 
@@ -64,6 +65,7 @@ export default class Bio extends Component {
               in the industry, I have expanded my skill-set and interest to
               include Data Science competitions, Freelance Web Development,
               Foreign Language (Spanish), Quantitative Analysis and Research
+              <img className="general-interest-note" src={Note} />
             </p>
           </div>
         </div>
