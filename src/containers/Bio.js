@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Footer from './Footer';
-import UNC from '../assets/unc_logo.png';
-import MSFT from '../assets/mcrsft.png';
+import React, { Component } from "react";
+import Footer from "./Footer";
+import UNC from "../assets/unc_logo.png";
+import MSFT from "../assets/mcrsft.png";
 
-import '../App.css';
+import "../App.css";
 
 export default class Bio extends Component {
   render() {
@@ -16,8 +16,8 @@ export default class Bio extends Component {
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      UNC CHAPEL HILL<br />{' '}
-                      MAJORED IN INFORMATION SCIENCE
+                      UNC CHAPEL HILL
+                      <br /> MAJORED IN INFORMATION SCIENCE
                       <br />
                     </p>
                   </td>
@@ -60,12 +60,10 @@ export default class Bio extends Component {
           </div>
           <div className="col-md-6">
             <p className="general-interest">
-              Driven by a passion for the field, I have converted my academic
-              background into a multidisciniplinary skill set. Through course
-              work at UNC and experience working in industry I've found myself
-              taking an interest in kaggle competitions, freelance web and
-              mobile development, spanish as a second language, and financial
-              engineering research
+              Through educational coursework at UNC-CH and employment experience
+              in the industry, I have expanded my skill-set and interest to
+              include Data Science competitions, Freelance Web Development,
+              Foreign Language (Spanish), Quantitative Analysis and Research
             </p>
           </div>
         </div>
@@ -76,47 +74,48 @@ export default class Bio extends Component {
               <tbody>
                 <tr>
                   <td className="course-title">
-                    {' '}
+                    {" "}
                     INLS 202 <br />
                     Retrieval and Organizing Systems
                   </td>
                   <td className="course-description">
                     Conceptual knowledge on information retrieval techniques,
-                    information organization practices, and data mining and analysis
+                    information organization practices, and data mining and
+                    analysis
                   </td>
                 </tr>
                 <tr>
                   <td className="course-title">
-                    {' '}
+                    {" "}
                     INLS 203/500 <br />
                     Human Information Behaviors <br />
-                    and Interactions{' '}
+                    and Interactions{" "}
                   </td>
                   <td className="course-description">
-                    Focus on data visualization and task modeling, information search
-                    behavior, human-computer interactions, user interfaces, 
-                    and sentiment analysis.
+                    Focus on data visualization and task modeling, information
+                    search behavior, human-computer interactions, user
+                    interfaces, and sentiment analysis.
                   </td>
                 </tr>
                 <tr>
                   <td className="course-title">
-                    {' '}
+                    {" "}
                     INLS 520 <br />
-                    Organization of Information{' '}
+                    Organization of Information{" "}
                   </td>
                   <td className="course-description">
-                    Practice implementing database modeling and schemas,
-                    data structures and algorithms, terminological control, and 
-                    index language functions 
+                    Practice implementing database modeling and schemas, data
+                    structures and algorithms, terminological control, and index
+                    language functions
                   </td>
                 </tr>
               </tbody>
             </table>
             <br />
             <p className="general-interest-3">
-              <i className=" ql fas fa-quote-left"></i>{' '}
-              <i className="qr fas fa-quote-right"></i> - Gaining experience in
-              life is about <br />finding your medium in a<br /> world of extremes{' '}
+              - Gaining experience in
+              life is about <br />
+              finding your medium in a<br /> world of extremes{" "}
             </p>
           </div>
         </div>

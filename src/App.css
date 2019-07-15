@@ -87,30 +87,35 @@ html,
 }
 
 .general-interest {
-  margin-top: 10px;
-  padding-left: 15px;
-  border-bottom: 2px solid grey;
-  width: 89%;
+  margin-top: 35px;
+  margin-left: 10px; 
+  padding: 25px; 
+  background-color: #F7F7F7;
+  border: 1px solid grey; 
+  border-radius: 2px; 
+  width: 87%;
   font-size: 14px;
 }
 
 .general-interest-3 {
+  border-top: 2px solid grey; 
   color: #22230F; 
   font-family: 'Great Vibes', cursive; 
-  font-size: 40px;
+  font-size: 38px;
   padding-right: 35px;
   text-align: right;
 }
 
 .general-interest,
-.general-interest-2,
-.general-interest-education {
+.general-interest-2 {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   padding-bottom: 15px;
 }
 
 .general-interest-education {
-  font-size: 12px;
+  color: #66788D; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 15px;
   font-weight: bold;
   text-align: right;
 }
@@ -122,11 +127,11 @@ html,
 
 .course-title {
   background-color: rgba(235, 222, 213, 0.8);
+  font-style: italic; 
   padding-top: 8.5px;
   padding-left: 15px;
   padding-right: 12px;
   padding-bottom: 35px;
-  font-weight: bold;
 }
 
 .course-overview {
