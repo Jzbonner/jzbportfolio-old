@@ -13,7 +13,7 @@ import '../App.css';
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    width: '75%',
     backgroundColor: 'rgba(255,157,60, 0.3)',
   },
   design: {
