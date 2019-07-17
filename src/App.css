@@ -65,7 +65,7 @@ html,
 .home-section-2 {
   color: #808080;
   font-size: 28px;
-  padding-top: 12px;
+  padding-top: 35px;
   text-align: center;
 }
 
@@ -87,14 +87,13 @@ html,
 }
 
 .general-interest {
-  margin-top: 35px;
-  margin-left: 10px; 
+  margin-top: 10px;  
   padding: 25px; 
   background-color: #F7F7F7;
   border: 1px solid grey; 
   border-radius: 2px; 
-  width: 87%;
-  font-size: 14px;
+  width: 75%;
+  font-size: 16px;
 }
 
 .general-interest-3 {
@@ -109,7 +108,6 @@ html,
 .general-interest,
 .general-interest-2 {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  padding-bottom: 15px;
 }
 
 .general-interest-education {
@@ -122,7 +120,7 @@ html,
 
 .general-interest-note {
   float: right; 
-  margin-top: 15px; 
+  margin-top: 20px; 
   height: 45px; 
   width: 45px; 
 }
@@ -226,13 +224,10 @@ a.resume-link {
 }
 
 /* Portfolio Section */
-.internship,
-.employment {
+.internship {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-}
-
-.employment {
-  padding-bottom: 35px;
+  padding-top: 25px; 
+  
 }
 
 .portfolio-title {
@@ -273,6 +268,21 @@ a.resume-link {
   color: #dcb680;
   font-size: 20px;
   padding: 8px;
+}
+
+.portfolio-skills-icon {
+  display: block; 
+  margin: auto; 
+  padding: 10px; 
+  height: 75px; 
+  width: 75px; 
+}
+
+table.portfolio-skills {
+  margin-bottom: 35px; 
+  margin-top: 35px;
+  
+  width: 100%; 
 }
 
 /* Navbar Section */

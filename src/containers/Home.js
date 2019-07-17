@@ -40,7 +40,7 @@ export default class Home extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-7 col-md-7">
+          <div className="col-lg-6">
             <p className="home-section-1">
               {" "}
               Software Engineering is the toolset for building a better
@@ -51,12 +51,9 @@ export default class Home extends Component {
               engineering firms, and freelance projects for clients have molded
               me with a keen interest in practical design and software
               development.
-              <p className="home-section-2">
-                <i className="fas fa-code-branch" />
-              </p>
             </p>
           </div>
-          <div className="col-lg-4 col-md-4">
+          <div className="col-lg-4">
             <img src={Profile} className="home-pic" alt="home-pic" />
           </div>
         </div>
