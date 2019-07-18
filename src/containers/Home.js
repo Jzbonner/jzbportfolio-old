@@ -3,6 +3,7 @@ import SkillBar from "react-skillbars";
 
 import Footer from "./Footer";
 import Profile from "../assets/profile.jpg";
+import cpu from "../assets/portfolio-icons/cpu.png";
 import "../App.css";
 
 const skills = [
@@ -40,7 +41,10 @@ export default class Home extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-2">
+            <img className="portfolio-side-icon" src={cpu} />
+          </div>
+          <div className="col-lg-7">
             <p className="home-section-1">
               {" "}
               Software Engineering is the toolset for building a better
@@ -53,7 +57,7 @@ export default class Home extends Component {
               development.
             </p>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <img src={Profile} className="home-pic" alt="home-pic" />
           </div>
         </div>
@@ -62,10 +66,10 @@ export default class Home extends Component {
         */}
 
         <div className="row">
+          <div className="col-lg-2" />
           <div className="col-lg-9">
             <SkillBar skills={skills} colors={colors} height={22} />
           </div>
-          <div className="col-lg-2" />
         </div>
         <Footer />
       </div>

@@ -63,8 +63,8 @@ export default class Bio extends Component {
             <p className="general-interest">
               Through educational coursework at UNC-CH and employment experience
               in the industry, I have expanded my skill-set and interest to
-              include Data Science competitions, Freelance Web Development,
-              Foreign Language (Spanish), Quantitative Analysis and Research
+              include data science competitions, freelance web development,
+              foreign language (Spanish), quantitative analysis and data visualization 
               <img className="general-interest-note" src={Note} />
             </p>
           </div>

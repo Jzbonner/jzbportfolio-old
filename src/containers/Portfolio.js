@@ -21,6 +21,7 @@ import android from "../assets/portfolio-icons/android.png";
 import photoshop from "../assets/portfolio-icons/photoshop.png";
 import office from "../assets/portfolio-icons/office.png";
 import drive from "../assets/portfolio-icons/drive.png";
+import briefcase from "../assets/portfolio-icons/briefcase.png";
 
 import "../App.css";
 
@@ -71,6 +72,7 @@ class Portfolio extends Component {
       <div className="portfolio container-fluid">
         <div className="row">
           <div className="col-lg-2">
+            <img className="portfolio-side-icon" src={briefcase} />
           </div>
           <div className="col-lg-9">
             <p className="internship">
