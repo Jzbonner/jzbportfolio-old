@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Footer from "./Footer";
 import UNC from "../assets/unc_logo.png";
 import MSFT from "../assets/mcrsft.png";
-import Note from '../assets/notebook.png'; 
+import Note from '../assets/notebook.png';
 
 import "../App.css";
 
@@ -11,7 +11,18 @@ export default class Bio extends Component {
     return (
       <div className="bio">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-2">
+            <img className="portfolio-side-icon" src={Note} />
+          </div>
+          <div className="col-lg-5">
+            <p className="general-interest">
+              Through educational coursework at UNC-CH and employment experience
+              in the industry, I have expanded my skill-set and interest to
+              include data science competitions, freelance web development,
+              foreign language (Spanish), quantitative analysis and data visualization
+            </p>
+          </div>
+          <div className="col-lg-5">
             <table className="university-section">
               <tbody>
                 <tr>
@@ -58,15 +69,6 @@ export default class Bio extends Component {
                 </tr>
               </tbody>
             </table>
-          </div>
-          <div className="col-md-6">
-            <p className="general-interest">
-              Through educational coursework at UNC-CH and employment experience
-              in the industry, I have expanded my skill-set and interest to
-              include data science competitions, freelance web development,
-              foreign language (Spanish), quantitative analysis and data visualization 
-              <img className="general-interest-note" src={Note} />
-            </p>
           </div>
         </div>
         <div className="row">
