@@ -88,10 +88,9 @@ html,
 }
 
 .general-interest {
-  margin-top: 10px;  
-  margin-left: 15px; 
-  padding: 25px; 
-  width: 88%;
+  margin-top: 25px;  
+  margin-left: 10px; 
+  width: 100%;
   font-size: 16px;
 }
 
@@ -112,7 +111,7 @@ html,
 .general-interest-education {
   color: #66788D; 
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-align: right;
 }
@@ -157,11 +156,11 @@ html,
 }
 
 .university-section {
-  background-color: #F7F7F7;
   border: 1px solid grey; 
   border-radius: 2px; 
-  margin-top: 5px;
-  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; 
 }
 
 .university-name {
@@ -178,18 +177,6 @@ html,
   margin: auto;
   margin-bottom: 28px;
   width: 55px;
-}
-
-.qr {
-  font-style: italic;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-}
-
-.ql {
-  font-style: italic;
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
 }
 
 /* Resume Section */
