@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
 import UNC from "../assets/unc_logo.png";
 import MSFT from "../assets/mcrsft.png";
 import Note from "../assets/notebook.png";
@@ -40,6 +39,15 @@ export default class Bio extends Component {
                   <td className="university-logo">
                     <img className="uni-logo-pic" src={UNC} alt="unc_logo" />
                   </td>
+                  <td className="university-logo">
+                    <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
+                  </td>
+                  <td className="university-name">
+                    <p className="general-interest-education">
+                    MICROSOFT CERTIFIED TECHNOLOGY SPECIALIST
+                    <br />
+                    </p>
+                  </td>
                 </tr>
                 <tr>
                   <td className="university-name">
@@ -51,16 +59,14 @@ export default class Bio extends Component {
                   <td className="university-logo">
                     <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
                   </td>
-                </tr>
-                <tr>
+                  <td className="university-logo">
+                    <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
+                  </td>
                   <td className="university-name">
                     <p className="general-interest-education">
                       MICROSOFT CERTIFIED TECHNOLOGY SPECIALIST
                       <br />
                     </p>
-                  </td>
-                  <td className="university-logo">
-                    <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
                   </td>
                 </tr>
               </tbody>
@@ -119,7 +125,6 @@ export default class Bio extends Component {
             </p>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

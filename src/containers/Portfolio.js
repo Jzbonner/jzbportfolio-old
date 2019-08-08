@@ -6,8 +6,6 @@ import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-
-
 import python from "../assets/portfolio-icons/python.png";
 import css from "../assets/portfolio-icons/css-3.png";
 import html from "../assets/portfolio-icons/html-5.png";
@@ -22,7 +20,6 @@ import photoshop from "../assets/portfolio-icons/photoshop.png";
 import office from "../assets/portfolio-icons/office.png";
 import drive from "../assets/portfolio-icons/drive.png";
 import briefcase from "../assets/portfolio-icons/briefcase.png";
-import Footer from "./Footer";
 import "../App.css";
 
 const styles = theme => ({
@@ -233,7 +230,6 @@ class Portfolio extends Component {
             </ExpansionPanel>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

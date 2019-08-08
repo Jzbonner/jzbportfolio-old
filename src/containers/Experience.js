@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Footer from "./Footer";
 import { withStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -227,8 +226,6 @@ class Experience extends Component {
             </Card>
           </div>
         </div>
-
-        <Footer />
       </div>
     );
   }

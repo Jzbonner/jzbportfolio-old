@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import SkillBar from "react-skillbars";
-
-import Footer from "./Footer";
 import Profile from "../assets/profile.jpg";
 import cpu from "../assets/portfolio-icons/cpu.png";
 import "../App.css";
@@ -44,7 +42,7 @@ export default class Home extends Component {
           <div className="col-lg-2">
             <img className="portfolio-side-icon" src={cpu} />
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-6">
             <p className="home-section-1">
               {" "}
               Software Engineering is the toolset for building a better
@@ -65,13 +63,12 @@ export default class Home extends Component {
           SKillbar section - **import React SKill Bar NPM package
         */}
 
-        <div className="row">
+        <div className="row skillbars">
           <div className="col-lg-2" />
           <div className="col-lg-9">
             <SkillBar skills={skills} colors={colors} height={22} />
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

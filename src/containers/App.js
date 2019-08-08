@@ -9,7 +9,6 @@ TODO:
 
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
 import Sidebar from "./Sidebar";
 import Bio from "./Bio";
 import Home from "./Home";
@@ -17,6 +16,7 @@ import Experience from "./Experience";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Navbar from "./Navbar";
+import Footer from "./Footer"; 
 
 import "../App.css";
 
@@ -109,6 +109,7 @@ export default class App extends Component {
                 ))}
               </div>
             </div>
+            <Footer />
           </div>
         </div>
       </Router>
