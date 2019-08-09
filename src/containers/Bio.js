@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import UNC from "../assets/unc_logo.png";
 import MSFT from "../assets/mcrsft.png";
 import Note from "../assets/notebook.png";
+import Habitat from "../assets/habitat-logo.jpeg";
 
 import "../App.css";
 
@@ -13,7 +14,7 @@ export default class Bio extends Component {
           <div className="col-lg-2">
             <img className="portfolio-side-icon" src={Note} />
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-8">
             <p className="general-interest">
               Through educational coursework at UNC-CH and employment experience
               in the industry, I have expanded my skill-set and interest to
@@ -31,8 +32,8 @@ export default class Bio extends Component {
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      UNC CHAPEL HILL
-                      <br /> MAJORED IN INFORMATION SCIENCE
+                      UNC-CH
+                      <br /> INFORMATION SCIENCE
                       <br />
                     </p>
                   </td>
@@ -43,16 +44,20 @@ export default class Bio extends Component {
                     <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
                   </td>
                   <td className="university-name">
-                    <p className="general-interest-education">
-                    MICROSOFT CERTIFIED TECHNOLOGY SPECIALIST
-                    <br />
+                    <p className="general-interest-education-secondary">
+                      MSFT CERTIFIED TECHNOLOGY
+                      <br />
+                      SPECIALIST
+                      <br />
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td className="university-name">
                     <p className="general-interest-education">
-                      MICROSOFT TECHNOLOGY ASSOCIATE
+                      MSFT TECHNOLOGY
+                      <br />
+                      ASSOCIATE
                       <br />
                     </p>
                   </td>
@@ -60,11 +65,17 @@ export default class Bio extends Component {
                     <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
                   </td>
                   <td className="university-logo">
-                    <img className="uni-logo-pic" src={MSFT} alt="unc_logo" />
+                    <img
+                      className="uni-logo-pic"
+                      src={Habitat}
+                      alt="unc_logo"
+                    />
                   </td>
                   <td className="university-name">
-                    <p className="general-interest-education">
-                      MICROSOFT CERTIFIED TECHNOLOGY SPECIALIST
+                    <p className="general-interest-education-secondary">
+                      HABITAT FOR HUMANITY
+                      <br />
+                      VOLUNTEER
                       <br />
                     </p>
                   </td>
@@ -83,37 +94,33 @@ export default class Bio extends Component {
                   <td className="course-title">
                     {" "}
                     INLS 202 <br />
-                    Retrieval and Organizing Systems
                   </td>
                   <td className="course-description">
-                    Conceptual knowledge on information retrieval techniques,
-                    information organization practices, and data mining and
-                    analysis
+                    Information Retrieval and System Organization: Conceptual
+                    knowledge on information retrieval techniques, information
+                    organization practices, and data mining and analysis
                   </td>
                 </tr>
                 <tr>
                   <td className="course-title">
                     {" "}
-                    INLS 203/500 <br />
-                    Human Information Behaviors <br />
-                    and Interactions{" "}
+                    INLS 500 <br />
                   </td>
                   <td className="course-description">
-                    Focus on data visualization and task modeling, information
-                    search behavior, human-computer interactions, user
-                    interfaces, and sentiment analysis.
+                    Human Computer Interaction: Focused on data visualization
+                    and modeling, information search behavior, human-computer
+                    interactions, and user interfaces
                   </td>
                 </tr>
                 <tr>
                   <td className="course-title">
                     {" "}
                     INLS 520 <br />
-                    Organization of Information{" "}
                   </td>
                   <td className="course-description">
-                    Practice implementing database modeling and schemas, data
-                    structures and algorithms, terminological control, and index
-                    language functions
+                    Organization of Information: Implemented database modeles
+                    and schemas, data structures and algorithms, terminological
+                    control, and index language functions
                   </td>
                 </tr>
               </tbody>

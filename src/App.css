@@ -102,7 +102,7 @@ html,
 }
 
 .general-interest-3 {
-  border-top: 2px solid grey; 
+  border-top: 2px solid #B0AEA1; 
   color: #22230F; 
   font-family: 'Great Vibes', cursive; 
   font-size: 30px;
@@ -116,11 +116,19 @@ html,
 }
 
 .general-interest-education {
-  color: #66788D; 
+  color: #2A2A2A; 
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 13px;
   font-weight: bold;
   text-align: right;
+}
+
+.general-interest-education-secondary {
+  color: #2A2A2A; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
 }
 
 .general-interest-note {
@@ -138,16 +146,17 @@ html,
 .course-title {
   background-color: rgba(235, 222, 213, 0.8);
   font-style: italic; 
+  font-weight: bold; 
   padding-top: 8.5px;
   padding-left: 15px;
   padding-right: 12px;
   padding-bottom: 35px;
+  text-align: center; 
 }
 
 .course-overview {
-  border: 2px solid rgba(235, 222, 213, 0.8);
-  border-top-left-radius: 80px;
-  border-bottom-left-radius: 20px;
+  /*border: 2px solid rgba(235, 222, 213, 0.8);*/
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
@@ -163,10 +172,8 @@ html,
 }
 
 .university-section {
-  border: 1px solid grey; 
-  border-radius: 2px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px; 
   width: 100%; 
 }
 
