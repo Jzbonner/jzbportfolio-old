@@ -286,20 +286,22 @@ a.resume-link {
 }
 
 .portfolio-skills-icon {
+  border: 6px solid grey; 
+  border-radius: 360px; 
   display: block; 
-  margin: auto; 
-  padding: 10px; 
-  height: 75px; 
-  width: 75px; 
+  padding: 5px; 
+  height: 65px; 
+  width: 65px; 
 }
 
-table.portfolio-skills {
-  border: 1px solid black; 
-   
+table.portfolio-skills {   
+  border-collapse: separate; 
+  border-spacing: 15px; 
   margin-bottom: 35px; 
   margin-top: 35px;
   width: 100%; 
 }
+
 
 /* Navbar Section */
 .nav-link {

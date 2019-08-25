@@ -11,32 +11,27 @@ import "../App.css";
 export default class Resume extends Component {
   render() {
     return (
-      <div>
         <div className="resume-section">
-          <h2 className="resume-title">Resume</h2>
-          <a
-            className="resume-link"
-            href="https://github.com/Jzbonner/jzb-co/blob/master/src/assets/jzb-resume.docx?raw=true"
-            download
-          >
-            <div className="row">
-              <div className="col-md-3">
-                <img className="resume-pic" src={ResumePic} alt="resume" />
-              </div>
-              <div className="col-md-6">
-                <p className="resume-description">
-                  For a more customary look at my skills <br />
-                  click here to access my resume.
-                  <br />
-                  Feel free to contact me for services
-                  <br />
-                  or employment opportunities.
-                </p>
-              </div>
+          <div className="row">
+            <div className="col-lg-2">
+              <img className="portfolio-side-icon" src={ResumePic} />
             </div>
-          </a>
+            <div className="col-lg-3">
+              <ul className="resume-description">
+                <li>Resume</li>
+                <li>Github Spotlight</li>
+                <li>LinkedIn</li>
+                <li>Recent Blog Post</li>
+              </ul>
+            </div>
+            <div className="col-lg-4">
+            <ul className="resume-description">
+                <li>Placeholder</li>
+                <li>Book Reccomendation</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
     );
   }
 }
