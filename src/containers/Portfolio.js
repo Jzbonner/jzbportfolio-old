@@ -24,11 +24,13 @@ import "../App.css";
 
 const styles = theme => ({
   root: {
-    width: "100%",
-    backgroundColor: "rgba(255,157,60, 0.3)"
+    width: "30%",
+    backgroundColor: "rgba(255,157,60, 0.0)",
+    paddingBottom: "24px",
   },
   design: {
-    backgroundColor: "#E9E9EA"
+    backgroundColor: "rgba(255,157,60, 0.0)",
+    marginBottom: "24px",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -151,9 +153,7 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i class="fas fa-hand-holding-usd fit-icon" />
-                  <br />
-                  Full Stack Web Application
+                  <i class="fas fa-hand-holding-usd fit-icon" /> Full Stack
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
                   In Development
@@ -172,9 +172,7 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-mobile fit-icon" />
-                  <br />
-                  React Native App
+                  <i className="fas fa-mobile fit-icon" /> React Native
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
                   In Development
@@ -193,9 +191,7 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-database fit-icon" />
-                  <br />
-                  Big Data and Data <br /> Analytics
+                  <i className="fas fa-database fit-icon" /> Big Data
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
                   In Development
@@ -214,9 +210,7 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-fingerprint fit-icon" />
-                  <br />
-                  Business Intelligence
+                  <i className="fas fa-fingerprint fit-icon" /> Business Intelligence
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
                   In Development
