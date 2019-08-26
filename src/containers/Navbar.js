@@ -28,7 +28,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <Menu
-        width={"200px"}
+        width={"220px"}
         className="sidebar-slide"
         isOpen={this.state.menuOpen}
         onStateChange={state => this.handleStateChange(state)}

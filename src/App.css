@@ -331,14 +331,15 @@ table.portfolio-skills {
 .sidebar-slide {
   background-color: rgba(224,218,201, 0.95); 
   padding-top: 35px; 
+  margin-left: -15px; 
 }
 
 .bm-burger-button {
   position: fixed;
   width: 26px;
   height: 20px;
-  left: 36px;
-  top: 65px;
+  left: 16px;
+  top: 55px;
 }
 
 .bm-burger-bars {
