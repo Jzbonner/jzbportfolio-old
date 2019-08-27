@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+import PropTypes, { nominalTypeHack } from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
@@ -24,13 +24,14 @@ import "../App.css";
 
 const styles = theme => ({
   root: {
-    width: "30%",
+    width: "100%",
     backgroundColor: "rgba(255,157,60, 0.0)",
-    paddingBottom: "24px",
+    paddingBottom: "24px"
   },
   design: {
-    backgroundColor: "rgba(255,157,60, 0.0)",
-    marginBottom: "24px",
+    border: "1px solid grey",
+    backgroundColor: "rgba(114,114,116, 0.1)",
+    marginBottom: "24px"
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -45,7 +46,9 @@ const styles = theme => ({
     borderLeft: "2px solid grey",
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
-    padding: 8
+    marginTop: 5,
+    paddingLeft: 15, 
+    paddingTop: 11 
   },
   description: {
     fontFamily: "Encode Sans Semi Expanded"
@@ -145,7 +148,8 @@ class Portfolio extends Component {
           <div className="col-lg-1" />
         </div>
         <div className="row">
-          <div className={classes.root}>
+          <div className="col-lg-6">
+            <div className={classes.root}>
             <ExpansionPanel
               className={classes.design}
               expanded={expanded === "panel1"}
@@ -153,10 +157,10 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i class="fas fa-hand-holding-usd fit-icon" /> Full Stack
+                  <i class="fas fa-hand-holding-usd fit-icon" /> 
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
-                  In Development
+                  Full Stack
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
@@ -172,10 +176,10 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-mobile fit-icon" /> React Native
+                  <i className="fas fa-mobile fit-icon" /> 
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
-                  In Development
+                  React Native
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
@@ -184,6 +188,11 @@ class Portfolio extends Component {
                 </Typography>
               </ExpansionPanelDetails>
             </ExpansionPanel>
+            </div>
+          </div>
+
+          <div className="col-lg-6">
+            <div className={classes.root}>
             <ExpansionPanel
               className={classes.design}
               expanded={expanded === "panel3"}
@@ -191,10 +200,10 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-database fit-icon" /> Big Data
+                  <i className="fas fa-database fit-icon" /> 
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
-                  In Development
+                  Big Data
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
@@ -210,10 +219,10 @@ class Portfolio extends Component {
             >
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <Typography className={classes.heading}>
-                  <i className="fas fa-fingerprint fit-icon" /> Business Intelligence
+                  <i className="fas fa-fingerprint fit-icon" /> 
                 </Typography>
                 <Typography className={classes.secondaryHeading}>
-                  In Development
+                  Business Intelligence
                 </Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails>
@@ -222,6 +231,7 @@ class Portfolio extends Component {
                 </Typography>
               </ExpansionPanelDetails>
             </ExpansionPanel>
+            </div>
           </div>
         </div>
       </div>
