@@ -358,22 +358,25 @@ table.portfolio-skills {
 .sidebar-title {
   color: rgb(108, 102, 114);
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: left; 
 }
 
 .table-markee {
-  border-bottom: 2px solid #737987;
+  border-bottom: 1px solid black; 
+  border-collapse: collapse; 
+  border-spacing: 0px; 
   margin: auto;
-  width: 60%;
+  width: 85%; 
 }
 
 .portfolio-logo {
-  display: block;
-  height: 85px;
-  margin: auto;
-  width: 85px;
+  display: block; 
+  margin: auto; 
+  height: 55px;
+  width: 55px;
+  padding: 5px; 
 }
 
 .portfolio-id {
@@ -397,9 +400,11 @@ table.portfolio-skills {
 }
 
 .table-quick-links {
-  margin-top: 15px;
+  margin-top: -9px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid black; 
+  background-color: rgba(224,218,201, 1);
 }
 
 /* Skill Bar Section */

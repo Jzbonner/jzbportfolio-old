@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import logo from '../assets/logo.svg';
+import React, { Component } from "react";
+import logo from "../assets/logo.svg";
 
-import Github from '../assets/github-logo.png';
-import LinkedIn from '../assets/linkedin-logo.png';
-import Medium from '../assets/medium.png';
-import Blog from '../assets/blog.png';
+import Github from "../assets/github-logo.png";
+import LinkedIn from "../assets/linkedin-logo.png";
+import Medium from "../assets/medium.png";
+import Blog from "../assets/blog.png";
 
-import '../App.css';
+import "../App.css";
 
 export default class Sidebar extends Component {
   render() {
@@ -16,10 +16,11 @@ export default class Sidebar extends Component {
           <tbody>
             <tr>
               <td className="portfolio-id">
-                <h2 className="sidebar-title"> Jarrett Bonner </h2>
+                <img src={logo} className="portfolio-logo" alt="logo" />
               </td>
               <td className="portfolio-id">
-                <img src={logo} className="portfolio-logo" alt="logo" />
+                <h1 className="sidebar-title">JARRETT</h1>
+                <h3 className="sidebar-sub-title">BONNER</h3>
               </td>
             </tr>
           </tbody>
@@ -33,7 +34,8 @@ export default class Sidebar extends Component {
                   href="https://github.com/Jzbonner"
                   data-toggle="tooltip"
                   data-placement="bottom"
-                  title="Github">
+                  title="Github"
+                >
                   <img src={Github} className="quick-links-img" alt="github" />
                 </a>
               </td>
@@ -42,7 +44,8 @@ export default class Sidebar extends Component {
                   href="https://www.linkedin.com/in/jarrett-bonner-28048339/"
                   data-toggle="tooltip"
                   data-placement="bottom"
-                  title="LinkedIn">
+                  title="LinkedIn"
+                >
                   <img
                     src={LinkedIn}
                     className="quick-links-img"
@@ -55,7 +58,8 @@ export default class Sidebar extends Component {
                   href="https://medium.com/@jarrett.bonner"
                   data-toggle="tooltip"
                   data-placement="bottom"
-                  title="Medium">
+                  title="Medium"
+                >
                   <img src={Medium} className="quick-links-img" alt="medium" />
                 </a>
               </td>
@@ -64,7 +68,8 @@ export default class Sidebar extends Component {
                   href="#"
                   data-toggle="tooltip"
                   data-placement="bottom"
-                  title="Blog Soon Come">
+                  title="Blog Soon Come"
+                >
                   <img src={Blog} className="quick-links-img" alt="blog" />
                 </a>
               </td>
@@ -75,3 +80,4 @@ export default class Sidebar extends Component {
     );
   }
 }
+ 
