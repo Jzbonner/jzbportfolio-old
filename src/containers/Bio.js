@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import UNC from "../assets/unc_logo.png";
-import MSFT from "../assets/mcrsft.png";
-import Note from "../assets/notebook.png";
-import Habitat from "../assets/habitat-logo.jpeg";
+import UNC from "../assets/bio-icons/unc_logo.png";
+import MSFT from "../assets/bio-icons/mcrsft.png";
+import Note from "../assets/sidebar-icons/graphics-card.png";
+import Habitat from "../assets/bio-icons/habitat-logo.jpeg";
 
 import "../App.css";
 
@@ -127,8 +127,8 @@ export default class Bio extends Component {
             </table>
             <br />
             <p className="general-interest-3">
-              - Gaining experience in life is about <br />
-              finding your medium in a<br /> world of extremes{" "}
+              - Gaining experience in life is about finding your <br />
+              medium in a world of extremes{" "}
             </p>
           </div>
         </div>

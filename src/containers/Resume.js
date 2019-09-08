@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ResumePic from "../assets/resume.png";
+import ResumePic from "../assets/sidebar-icons/keyboard.png";
 import "../App.css";
 
 {

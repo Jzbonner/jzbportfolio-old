@@ -4,6 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import python from "../assets/portfolio-icons/python.png";
@@ -19,7 +20,7 @@ import android from "../assets/portfolio-icons/android.png";
 import photoshop from "../assets/portfolio-icons/photoshop.png";
 import office from "../assets/portfolio-icons/office.png";
 import drive from "../assets/portfolio-icons/drive.png";
-import briefcase from "../assets/portfolio-icons/briefcase.png";
+import briefcase from "../assets/sidebar-icons/hard-drive.png";
 import "../App.css";
 
 const styles = theme => ({

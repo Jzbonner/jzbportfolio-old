@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SkillBar from "react-skillbars";
 import Profile from "../assets/profile.jpg";
-import cpu from "../assets/portfolio-icons/cpu.png";
+import cpu from "../assets/sidebar-icons/cpu.png";
 import "../App.css";
 
 const skills = [

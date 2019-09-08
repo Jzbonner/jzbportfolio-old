@@ -105,7 +105,7 @@ html,
   border-top: 2px solid #B0AEA1; 
   color: #22230F; 
   font-family: 'Great Vibes', cursive; 
-  font-size: 30px;
+  font-size: 28px;
   padding-right: 35px;
   text-align: right;
 }
@@ -359,7 +359,7 @@ table.portfolio-skills {
   color: rgb(108, 102, 114);
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 42px;
-  font-weight: 300;
+  font-weight: bold;
   text-align: left; 
 }
 

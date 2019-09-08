@@ -4,16 +4,18 @@ import { withStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import Ram from "../assets/sidebar-icons/ram.png";
 
 import "../App.css";
 
 const styles = {
   card: {
     backgroundColor: "rgba(245,245,245, 0.5)",
-    border: "2px solid #9F9F9F",
+    border: "1px solid #9F9F9F",
+    boxShadow: "1px 1px rgb(213,204,195)",
     minWidth: 275,
     maxWidth: 385,
-    marginBottom: 15
+    marginBottom: 20
   },
   body: {
     fontSize: 14,
@@ -26,26 +28,25 @@ const styles = {
     transform: "scale(0.9)"
   },
   headline: {
-    fontSize: 18,
+    fontSize: 16,
     fontFamily: "Encode Sans Semi Expanded",
     fontWeight: "bold"
   },
   title: {
-    backgroundColor: "#32629B",
-    borderRadius: 5,
-    color: "#fff",
+    borderTop: "2px solid grey",
+    borderRadius: 2,
     padding: 4,
     marginBottom: 1,
-    fontSize: 15,
+    fontSize: 14,
     fontFamily: "Encode Sans Semi Expanded",
-    textAlign: "right"
+    textAlign: "left"
   },
   titleText: {
     color: "#05090F",
-    fontSize: 15,
+    fontSize: 13,
     fontFamily: "Encode Sans Semi Expanded",
     fontWeight: "bold",
-    textAlign: "right"
+    textAlign: "left"
   }
 };
 
@@ -60,19 +61,22 @@ class Experience extends Component {
                 Title and Card Components for Experience Section - Add an 
                 additional card for freelance contract work experience 
             */}
-        <br />
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-2">
+            <img className="portfolio-side-icon" src={Ram} />
+            <br />
+          </div>
+          <div className="col-lg-5">
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  DecoNetwork America {bull} Software Specialist
+                  DecoNetwork America {bull} <br /> Software Specialist
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Sugar Hill, GA
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  May 2019 - Present
+                  May '19 - Present
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -89,14 +93,14 @@ class Experience extends Component {
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  Multiple Organizations {bull} Freelance Web Application
+                  Multiple Organizations {bull} <br /> Freelance Web Application
                   Developer
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Remote (Lawrenceville, GA)
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  Jan 2018 - Present
+                  Jan '18 - Present
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -112,14 +116,14 @@ class Experience extends Component {
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  Microsoft - Visual Studio Team {bull} Contract Quality
+                  Microsoft - Visual Studio Team {bull} <br /> Contract Quality
                   Assurance Tester
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Remote (Durham, NC)
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  Nov 2017 - Dec 2017
+                  Nov '17 - Dec '17
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -135,13 +139,13 @@ class Experience extends Component {
               <CardContent>
                 <Typography className={classes.headline}>
                   Office of Arts and Sciences Information Services (OASIS){" "}
-                  {bull} IT WordPress Technician
+                  {bull} <br /> IT WordPress Technician
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
-                  University of North Carolina (Chapel Hill, NC)
+                  University of North Carolina (Chapel Hill)
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  Jan 2013 - Jan 2016
+                  Jan '13 - Jan '16
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -155,17 +159,17 @@ class Experience extends Component {
               </CardContent>
             </Card>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  Cisco Systems Inc. {bull} Junior/Senior Intern
+                  Cisco Systems Inc. {bull} <br /> Junior/Senior Intern
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Lawrenceville, GA
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  Jan 2010 - Jan 2012
+                  Jan '10 - Jan '12
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -180,13 +184,13 @@ class Experience extends Component {
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  Monster Marketers Inc. {bull} IT Consultant
+                  Monster Marketers Inc. {bull} <br />IT Consultant
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Lawrenceville, GA
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  May 2010 - Aug 2010
+                  May '10 - Aug '10
                 </Typography>
                 <Typography className={classes.body}>
                   <p>
@@ -203,14 +207,14 @@ class Experience extends Component {
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.headline}>
-                  Flood Atlanta Sub-Contracting Company {bull} Customer Service
+                  Flood Atlanta LLC {bull} <br />Customer Service
                   Representative
                 </Typography>
                 <Typography className={classes.title} color="textSecondary">
                   Lawrenceville, GA
                 </Typography>
                 <Typography className={classes.titleText} color="textSecondary">
-                  May 2009 - August 2010
+                  May '09 - August '10
                 </Typography>
                 <Typography className={classes.body}>
                   <p>

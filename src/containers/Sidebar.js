@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo-icons/logo.svg";
 
-import Github from "../assets/github-logo.png";
-import LinkedIn from "../assets/linkedin-logo.png";
-import Medium from "../assets/medium.png";
-import Blog from "../assets/blog.png";
+import Github from "../assets/logo-icons/github-logo.png";
+import LinkedIn from "../assets/logo-icons/linkedin-logo.png";
+import Medium from "../assets/logo-icons/medium.png";
+import Blog from "../assets/logo-icons/blog.png";
 
 import "../App.css";
 
@@ -20,7 +20,7 @@ export default class Sidebar extends Component {
               </td>
               <td className="portfolio-id">
                 <h1 className="sidebar-title">JARRETT</h1>
-                <h3 className="sidebar-sub-title">BONNER</h3>
+                <h4 className="sidebar-sub-title">BONNER</h4>
               </td>
             </tr>
           </tbody>
