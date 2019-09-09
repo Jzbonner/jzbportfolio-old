@@ -91,7 +91,7 @@ class Portfolio extends Component {
         </div>
         <div className="row">
           <div className="col-lg-1" />
-          <div className="col-lg-10">
+          <div className="col-lg-8">
             <table className="portfolio-skills">
               <tbody>
                 <tr>
