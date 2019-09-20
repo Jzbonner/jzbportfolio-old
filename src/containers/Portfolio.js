@@ -27,7 +27,8 @@ const styles = theme => ({
   root: {
     width: "100%",
     backgroundColor: "rgba(255,157,60, 0.0)",
-    paddingBottom: "24px"
+    paddingBottom: "24px",
+    marginTop: "45px"
   },
   design: {
     border: "1px solid grey",
@@ -48,8 +49,8 @@ const styles = theme => ({
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
     marginTop: 5,
-    paddingLeft: 15, 
-    paddingTop: 11 
+    paddingLeft: 15,
+    paddingTop: 11
   },
   description: {
     fontFamily: "Encode Sans Semi Expanded"
@@ -91,7 +92,7 @@ class Portfolio extends Component {
         </div>
         <div className="row">
           <div className="col-lg-1" />
-          <div className="col-lg-10">
+          <div className="col-lg-5">
             <table className="portfolio-skills">
               <tbody>
                 <tr>
@@ -146,94 +147,88 @@ class Portfolio extends Component {
               </tbody>
             </table>
           </div>
-          <div className="col-lg-1" />
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className={classes.root}>
-            <ExpansionPanel
-              className={classes.design}
-              expanded={expanded === "panel1"}
-              onChange={this.handleChange("panel1")}
-            >
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.heading}>
-                  <i class="fas fa-hand-holding-usd fit-icon" /> 
-                </Typography>
-                <Typography className={classes.secondaryHeading}>
-                  Full Stack
-                </Typography>
-              </ExpansionPanelSummary>
-              <ExpansionPanelDetails>
-                <Typography className={classes.description}>
-                  Project Details Coming Soon...
-                </Typography>
-              </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel
-              className={classes.design}
-              expanded={expanded === "panel2"}
-              onChange={this.handleChange("panel2")}
-            >
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.heading}>
-                  <i className="fas fa-mobile fit-icon" /> 
-                </Typography>
-                <Typography className={classes.secondaryHeading}>
-                  React Native
-                </Typography>
-              </ExpansionPanelSummary>
-              <ExpansionPanelDetails>
-                <Typography className={classes.description}>
-                  Project Details Coming Soon...
-                </Typography>
-              </ExpansionPanelDetails>
-            </ExpansionPanel>
-            </div>
-          </div>
+              <ExpansionPanel
+                className={classes.design}
+                expanded={expanded === "panel1"}
+                onChange={this.handleChange("panel1")}
+              >
+                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <Typography className={classes.heading}>
+                    <i class="fas fa-hand-holding-usd fit-icon" />
+                  </Typography>
+                  <Typography className={classes.secondaryHeading}>
+                    Full Stack
+                  </Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <Typography className={classes.description}>
+                    Project Details Coming Soon...
+                  </Typography>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
+              <ExpansionPanel
+                className={classes.design}
+                expanded={expanded === "panel2"}
+                onChange={this.handleChange("panel2")}
+              >
+                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <Typography className={classes.heading}>
+                    <i className="fas fa-mobile fit-icon" />
+                  </Typography>
+                  <Typography className={classes.secondaryHeading}>
+                    React Native
+                  </Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <Typography className={classes.description}>
+                    Project Details Coming Soon...
+                  </Typography>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
 
-          <div className="col-lg-6">
-            <div className={classes.root}>
-            <ExpansionPanel
-              className={classes.design}
-              expanded={expanded === "panel3"}
-              onChange={this.handleChange("panel3")}
-            >
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.heading}>
-                  <i className="fas fa-database fit-icon" /> 
-                </Typography>
-                <Typography className={classes.secondaryHeading}>
-                  Big Data
-                </Typography>
-              </ExpansionPanelSummary>
-              <ExpansionPanelDetails>
-                <Typography className={classes.description}>
-                  Project Details Coming Soon...
-                </Typography>
-              </ExpansionPanelDetails>
-            </ExpansionPanel>
-            <ExpansionPanel
-              className={classes.design}
-              expanded={expanded === "panel4"}
-              onChange={this.handleChange("panel4")}
-            >
-              <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                <Typography className={classes.heading}>
-                  <i className="fas fa-fingerprint fit-icon" /> 
-                </Typography>
-                <Typography className={classes.secondaryHeading}>
-                  Business Intelligence
-                </Typography>
-              </ExpansionPanelSummary>
-              <ExpansionPanelDetails>
-                <Typography className={classes.description}>
-                  Project Details Coming Soon...
-                </Typography>
-              </ExpansionPanelDetails>
-            </ExpansionPanel>
+              <ExpansionPanel
+                className={classes.design}
+                expanded={expanded === "panel3"}
+                onChange={this.handleChange("panel3")}
+              >
+                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <Typography className={classes.heading}>
+                    <i className="fas fa-database fit-icon" />
+                  </Typography>
+                  <Typography className={classes.secondaryHeading}>
+                    Big Data
+                  </Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <Typography className={classes.description}>
+                    Project Details Coming Soon...
+                  </Typography>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
+              <ExpansionPanel
+                className={classes.design}
+                expanded={expanded === "panel4"}
+                onChange={this.handleChange("panel4")}
+              >
+                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <Typography className={classes.heading}>
+                    <i className="fas fa-fingerprint fit-icon" />
+                  </Typography>
+                  <Typography className={classes.secondaryHeading}>
+                    Business Intelligence
+                  </Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                  <Typography className={classes.description}>
+                    Project Details Coming Soon...
+                  </Typography>
+                </ExpansionPanelDetails>
+              </ExpansionPanel>
             </div>
           </div>
+          <div className="col-lg-1" />
         </div>
       </div>
     );

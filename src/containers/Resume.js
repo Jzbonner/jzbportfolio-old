@@ -25,7 +25,7 @@ export default class Resume extends Component {
               </ul>
             </div>
             <div className="col-lg-4">
-            <ul className="resume-description">
+              <ul className="resume-description">
                 <li>Placeholder</li>
                 <li>Book Reccomendation</li>
               </ul>
