@@ -33,6 +33,7 @@ const styles = {
     fontWeight: "bold"
   },
   title: {
+    color: "black",
     borderTop: "2px solid grey",
     borderRadius: 2,
     padding: 4,

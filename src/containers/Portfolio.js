@@ -31,9 +31,10 @@ const styles = theme => ({
     marginTop: "45px"
   },
   design: {
-    border: "1px solid grey",
-    backgroundColor: "rgba(114,114,116, 0.1)",
-    marginBottom: "24px"
+    borderRadius: "3px",
+    backgroundColor: "rgba(234,212,194, 0.4)",
+    marginBottom: "24px",
+    boxshadow: "0px 0px",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -42,15 +43,14 @@ const styles = theme => ({
     flexBasis: "33.33%",
     flexShrink: 0,
     padding: 8,
-    textAlign: "center"
+    textAlign: "right",
   },
   secondaryHeading: {
-    borderLeft: "2px solid grey",
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
     marginTop: 5,
     paddingLeft: 15,
-    paddingTop: 11
+    paddingTop: 11,
   },
   description: {
     fontFamily: "Encode Sans Semi Expanded"
@@ -97,13 +97,13 @@ class Portfolio extends Component {
               <tbody>
                 <tr>
                   <td>
-                    <img className="portfolio-skills-icon" src={python} />{" "}
+                  <img className="portfolio-skills-icon" src={office} />{" "}
                   </td>
                   <td>
                     <img className="portfolio-skills-icon" src={js} />{" "}
                   </td>
                   <td>
-                    <img className="portfolio-skills-icon" src={html} />{" "}
+                    
                   </td>
                 </tr>
                 <tr>
@@ -141,7 +141,13 @@ class Portfolio extends Component {
                 </tr>
                 <tr>
                   <td>
-                    <img className="portfolio-skills-icon" src={office} />{" "}
+                    
+                  </td>
+                  <td>
+                  <img className="portfolio-skills-icon" src={python} />{" "}
+                  </td>
+                  <td>
+                  <img className="portfolio-skills-icon" src={html} />{" "}
                   </td>
                 </tr>
               </tbody>
