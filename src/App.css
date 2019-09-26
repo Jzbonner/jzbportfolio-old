@@ -201,10 +201,12 @@ html,
 
 .uni-logo-pic {
   float: left;
-  height: 40px;
+  height: 35px;
   margin-top: 12px; 
   margin-bottom: 28px;
-  width: 40px;
+  width: 35px;
+  -webkit-filter: opacity(80%);
+  filter: opacity(80%); 
 }
 
 /* Resume Section */
