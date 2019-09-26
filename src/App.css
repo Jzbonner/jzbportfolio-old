@@ -106,7 +106,8 @@ html,
   color: #22230F; 
   font-family: 'Great Vibes', cursive; 
   font-size: 30px;
-  padding-top: 15px; 
+  padding: 15px; 
+  margin-bottom: 45px; 
   text-align: center;
 }
 
@@ -174,7 +175,6 @@ html,
 }
 
 .university-section {
-  background-image: linear-gradient(to top left, rgba(203,148,104, 0.3), 7% transparent 8%); 
   border-radius: 5px; 
   border-top: 8px solid rgba(203,148,104, 0.3); 
   margin-top: 30px;

@@ -27,7 +27,7 @@ export default class Bio extends Component {
         </div>
         <div className="row">
           <div className="col-lg-1" />
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <table className="course-overview">
               <tbody>
                 <tr>
@@ -63,7 +63,7 @@ export default class Bio extends Component {
               </tbody>
             </table>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <img className="university-section-skills-logo" src={Skills} />
             <table className="university-section">
               <tbody>
@@ -128,13 +128,13 @@ export default class Bio extends Component {
         </div>
         <div className="row">
             <div className="col-lg-3" />
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <p className="general-interest-3">
                 Gaining experience in life is about finding your <br />
                 medium in a world of extremes{" "}
               </p>
             </div>
-            <div className="col-lg-3" />
+            <div className="col-lg-2" />
           </div>
       </div>
     );
