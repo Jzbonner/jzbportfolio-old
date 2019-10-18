@@ -3,7 +3,7 @@ import UNC from "../assets/bio-icons/unc.png";
 import MSFT from "../assets/bio-icons/mcrsft.png";
 import Note from "../assets/sidebar-icons/graphics-card.png";
 import Habitat from "../assets/bio-icons/habitat.png";
-import Skills from "../assets/bio-icons/skills.png"; 
+import Skills from "../assets/bio-icons/skills.png";
 
 import "../App.css";
 
@@ -127,15 +127,15 @@ export default class Bio extends Component {
           <div className="col-lg-1" />
         </div>
         <div className="row">
-            <div className="col-lg-3" />
-            <div className="col-lg-7">
-              <p className="general-interest-3">
-                Gaining experience in life is about finding your <br />
-                medium in a world of extremes{" "}
-              </p>
-            </div>
-            <div className="col-lg-2" />
+          <div className="col-lg-3" />
+          <div className="col-lg-7">
+            <p className="general-interest-3">
+              Gaining experience in life is about finding your <br />
+              medium in a world of extremes{" "}
+            </p>
           </div>
+          <div className="col-lg-2" />
+        </div>
       </div>
     );
   }
