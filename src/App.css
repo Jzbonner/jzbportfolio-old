@@ -52,12 +52,10 @@ html,
   border-bottom-left-radius: 120px; 
   border-bottom-right-radius: 120px; 
   border-top-right-radius: 10px;
-  display: block;
-  height: 150px;
-  margin: auto; 
-  margin-bottom: 25px;
-  margin-top: 25px;
-  width: 150px;
+  margin-left: -55px;  
+  margin-top: 12px; 
+  float: left;
+  height: 100px;
 }
 
 .home-section-1 {
@@ -107,8 +105,9 @@ html,
   font-family: 'Great Vibes', cursive; 
   font-size: 30px;
   padding: 15px; 
+  padding-left: 25px; 
   margin-bottom: 45px; 
-  text-align: center;
+  text-align: left;
 }
 
 .general-interest,

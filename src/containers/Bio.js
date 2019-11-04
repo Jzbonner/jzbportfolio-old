@@ -4,6 +4,7 @@ import MSFT from "../assets/bio-icons/mcrsft.png";
 import Note from "../assets/sidebar-icons/graphics-card.png";
 import Habitat from "../assets/bio-icons/habitat.png";
 import Skills from "../assets/bio-icons/skills.png";
+import Profile from "../assets/profile.jpg";
 
 import "../App.css";
 
@@ -28,6 +29,7 @@ export default class Bio extends Component {
         <div className="row">
           <div className="col-lg-1" />
           <div className="col-lg-5">
+          {/* Course Overview Section */}
             <table className="course-overview">
               <tbody>
                 <tr>
@@ -64,6 +66,7 @@ export default class Bio extends Component {
             </table>
           </div>
           <div className="col-lg-5">
+          {/* Unversity Overview Section */}
             <img className="university-section-skills-logo" src={Skills} />
             <table className="university-section">
               <tbody>
@@ -129,6 +132,7 @@ export default class Bio extends Component {
         <div className="row">
           <div className="col-lg-3" />
           <div className="col-lg-7">
+            <img src={Profile} className="home-pic" alt="home-pic" />
             <p className="general-interest-3">
               Gaining experience in life is about finding your <br />
               medium in a world of extremes{" "}

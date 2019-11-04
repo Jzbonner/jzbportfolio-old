@@ -4,6 +4,7 @@ import Profile from "../assets/profile.jpg";
 import cpu from "../assets/sidebar-icons/cpu.png";
 import "../App.css";
 
+{/*Constant Variable for SkillBar attributes*/}
 const skills = [
   { type: "Front-end", level: 85 },
   { type: "JavaScript", level: 80 },
@@ -12,6 +13,7 @@ const skills = [
   { type: "UI/UX", level: 74 }
 ];
 
+{/*Constant Variable for SkillBar attributes*/}
 const colors = {
   bar: "#FFAF4C",
   title: {
@@ -42,7 +44,7 @@ export default class Home extends Component {
           <div className="col-lg-2">
             <img className="portfolio-side-icon" src={cpu} />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-9">
             <p className="home-section-1">
               {" "}
               Software Engineering is the toolset for building a better
@@ -55,14 +57,9 @@ export default class Home extends Component {
               development.
             </p>
           </div>
-          <div className="col-lg-3">
-            <img src={Profile} className="home-pic" alt="home-pic" />
-          </div>
         </div>
-        {/**
-          SKillbar section - **import React SKill Bar NPM package
-        */}
 
+        {/* SkillBar Section */}
         <div className="row skillbars">
           <div className="col-lg-2" />
           <div className="col-lg-9">
