@@ -5,6 +5,7 @@
   2.) Add Freelance experience and spruce up Experience Cards on Employment Page 
   3.) Add animations to site
   4.) Change Expansion Panel design on Portfolio Projects Page 
+  5.) Re-implement in SCSS 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
 
@@ -38,6 +39,20 @@ html,
     #ccdbe9 10%
   );
   min-height: 100vh;
+}
+
+/**************Layout: Icon and Description Section****************/
+.side-icon-bg {
+  padding: 10px;
+  background-color: rgba(170,156, 141, 0.2); 
+}
+
+.description-bg {
+  background-color: rgba(129,112,112, 0.2);
+}
+
+.internship {
+  padding: 10px; 
 }
 
 /* Content View Section */
@@ -244,8 +259,7 @@ a.resume-link {
 /* Portfolio Section */
 .internship {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  padding-top: 25px; 
-  
+  padding-top: 25px;   
 }
 
 .portfolio-title {
@@ -293,8 +307,14 @@ a.resume-link {
   border: 1px solid grey;
   border-radius: 5px; 
   display: block; 
+  margin: 0 auto;
+  z-index: 2; 
+  box-shadow: 0 5px 5px grey; 
+  /*
+  display: block; 
   margin-top: 30px; 
   margin-left: 20px; 
+  */
   height: 95px;
   padding: 15px;  
   width: 95px; 
@@ -312,10 +332,10 @@ a.resume-link {
 table.portfolio-skills {   
   border-collapse: separate; 
   border-spacing: 15px; 
-  margin-bottom: 35px; 
+  margin-bottom: 5px; 
   margin-top: 35px;
   width: 100%; 
-}
+} 
 
 
 /* Navbar Section */
@@ -509,3 +529,18 @@ a.footer-link {
   font-size: 10px; 
   margin-top: 5px; 
 }
+
+/**************Responsive: Media Queries****************/
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

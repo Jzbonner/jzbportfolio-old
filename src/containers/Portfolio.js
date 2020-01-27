@@ -21,6 +21,8 @@ import photoshop from "../assets/portfolio-icons/photoshop.png";
 import office from "../assets/portfolio-icons/office.png";
 import drive from "../assets/portfolio-icons/drive.png";
 import briefcase from "../assets/sidebar-icons/hard-drive.png";
+import php from "../assets/portfolio-icons/php.png";
+import docker from "../assets/portfolio-icons/docker.png";
 import "../App.css";
 
 const styles = theme => ({
@@ -34,7 +36,7 @@ const styles = theme => ({
     borderRadius: "3px",
     backgroundColor: "rgba(234,212,194, 0.4)",
     marginBottom: "24px",
-    boxshadow: "0px 0px",
+    boxshadow: "0px 0px"
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -43,14 +45,14 @@ const styles = theme => ({
     flexBasis: "33.33%",
     flexShrink: 0,
     padding: 8,
-    textAlign: "right",
+    textAlign: "right"
   },
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
     marginTop: 5,
     paddingLeft: 15,
-    paddingTop: 11,
+    paddingTop: 11
   },
   description: {
     fontFamily: "Encode Sans Semi Expanded"
@@ -75,10 +77,10 @@ class Portfolio extends Component {
     return (
       <div className="portfolio container-fluid">
         <div className="row">
-          <div className="col-lg-2">
+          <div className="col-lg-2 side-icon-bg">
             <img className="portfolio-side-icon" src={briefcase} />
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-9 description-bg">
             <p className="internship">
               My internship and employment experiences have allowed me the
               opportunity to develop a skill-set geared towards the tech
@@ -97,13 +99,13 @@ class Portfolio extends Component {
               <tbody>
                 <tr>
                   <td>
-                  <img className="portfolio-skills-icon" src={office} />{" "}
+                    <img className="portfolio-skills-icon" src={office} />{" "}
                   </td>
                   <td>
                     <img className="portfolio-skills-icon" src={js} />{" "}
                   </td>
                   <td>
-                    
+                    <img className="portfolio-skills-icon" src={docker} />{" "}
                   </td>
                 </tr>
                 <tr>
@@ -141,13 +143,13 @@ class Portfolio extends Component {
                 </tr>
                 <tr>
                   <td>
-                    
+                    <img className="portfolio-skills-icon" src={php} />{" "}
                   </td>
                   <td>
-                  <img className="portfolio-skills-icon" src={python} />{" "}
+                    <img className="portfolio-skills-icon" src={python} />{" "}
                   </td>
                   <td>
-                  <img className="portfolio-skills-icon" src={html} />{" "}
+                    <img className="portfolio-skills-icon" src={html} />{" "}
                   </td>
                 </tr>
               </tbody>
@@ -162,7 +164,7 @@ class Portfolio extends Component {
               >
                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                   <Typography className={classes.heading}>
-                    <i class="fas fa-hand-holding-usd fit-icon" />
+                    <i className="fas fa-hand-holding-usd fit-icon" />
                   </Typography>
                   <Typography className={classes.secondaryHeading}>
                     Full Stack
