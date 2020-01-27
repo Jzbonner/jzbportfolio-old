@@ -43,16 +43,20 @@ html,
 
 /**************Layout: Icon and Description Section****************/
 .side-icon-bg {
-  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 15px; 
   background-color: rgba(170,156, 141, 0.2); 
+  border-top-left-radius: 90px; 
 }
 
 .description-bg {
   background-color: rgba(129,112,112, 0.2);
+  border-bottom-right-radius: 90px; 
 }
 
 .internship {
   padding: 10px; 
+  font-size: 17px;
 }
 
 /* Content View Section */
@@ -240,8 +244,10 @@ a.resume-link {
 .resume-description {
   color: black;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top: 5px; 
   margin-left: 25px;
-  padding-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px; 
   text-align: left;
 }
 
@@ -315,9 +321,9 @@ a.resume-link {
   margin-top: 30px; 
   margin-left: 20px; 
   */
-  height: 95px;
+  height: 85px;
   padding: 15px;  
-  width: 95px; 
+  width: 85px; 
 }
 
 .portfolio-skills-icon {
@@ -517,11 +523,12 @@ a.footer-link {
 .footer {
   background-color: #373a47; 
   border-bottom-right-radius: 15px; 
-  box-shadow: 1px 1px black; 
+  box-shadow: 0 5px 5px grey; 
   position: absolute; 
   bottom: 1;  
   height: 25px; 
   width: 98vw; 
+  z-index: 2; 
 }
 
 .footer-title {
