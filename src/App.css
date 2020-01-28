@@ -262,6 +262,10 @@ a.resume-link {
   width: 225px;
 }
 
+.pdf-js {
+  padding-top: 25px; 
+}
+
 /* Portfolio Section */
 .internship {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
