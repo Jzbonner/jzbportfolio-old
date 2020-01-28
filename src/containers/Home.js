@@ -5,10 +5,6 @@ import cpu from "../assets/sidebar-icons/cpu.png";
 import "../App.css";
 
 import brain from "../assets/home-icons/brain.svg"
-import chip from "../assets/home-icons/chip.png"
-import laptop from "../assets/home-icons/laptop.png"
-import smartphone from "../assets/home-icons/smartphone.png"
-
 
 {
   /*Constant Variable for SkillBar attributes*/
