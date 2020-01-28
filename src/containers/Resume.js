@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ResumePic from "../assets/sidebar-icons/keyboard.png";
-import  { Document }  from "react-pdf"; 
+import resumePreview from "../assets/report.png";
+import blogPreveiw from "../assets/processing.png";
 import "../App.css";
 
 {
@@ -12,31 +13,64 @@ import "../App.css";
 export default class Resume extends Component {
   render() {
     return (
-        <div className="resume-section">
-          <div className="row">
-            <div className="col-lg-2 side-icon-bg">
-              <img className="portfolio-side-icon" src={ResumePic} />
-            </div>
-            <div className="col-lg-9 description-bg">
-              <ul className="resume-description">
-                <li>Github Spotlight</li>
-                <li>LinkedIn</li>
-                <li>Recent Blog Post</li>
-                <li>Book Reccomendation</li>
-              </ul>
-            </div>
+      <div className="resume-section">
+        <div className="row">
+          <div className="col-lg-2 side-icon-bg">
+            <img className="portfolio-side-icon" src={ResumePic} />
           </div>
-          <div className="row">
-            <div className="col-lg-3" />
-            <div className="col-lg-6 pdf-js">
-              <Document 
-                file="https://github.com/Jzbonner/jzb-co/blob/master/multi-media/resume.pdf"
-              >
-              </Document>
-            </div>
-            <div className="col-lg-3" />
+          <div className="col-lg-9 description-bg">
+            <ul className="resume-description">
+              <li> Github Spotlight</li>
+              <li> LinkedIn</li>
+              <li> Recent Blog Post</li>
+              <li> Book Reccomendation</li>
+            </ul>
           </div>
         </div>
+        <div className="row">
+          <div className="col-lg-1" />
+          <div className="col-lg-4 resume-mid-section-container">
+            <div className="row resume-mid-section-box-upper">
+              <div className="col-lg-11">
+                <p className="mid-section-title">CV/RESUME</p>
+              </div>
+            </div>
+            <div className="row resume-mid-section-box-lower">
+              <div className="col-lg-12">
+                <a className="resume-links" href="">
+                  <p className="mid-section-sub-title">⚫ Skillset and Credentials</p>
+                  <img
+                    className="resume-brand"
+                    src={resumePreview}
+                    alt="resume-brand"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-1" />
+          <div className="col-lg-4 resume-mid-section-container">
+            <div className="row resume-mid-section-box-upper">
+              <div className="col-lg-11">
+                <p className="mid-section-title">DEVELOPER HANDSHAKE</p>
+              </div>
+            </div>
+            <div className="row resume-mid-section-box-lower">
+              <div className="col-lg-12">
+                <a className="resume-links" href="">
+                <p className="mid-section-sub-title">⚫ A Blog About Open Source</p>
+                  <img
+                    className="resume-brand"
+                    src={blogPreveiw}
+                    alt="resume-brand"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-1" />
+        </div>
+      </div>
     );
   }
 }

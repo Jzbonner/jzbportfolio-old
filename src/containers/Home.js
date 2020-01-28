@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SkillBar from "react-skillbars";
-import GitHubCalendar from "react-github-calendar";
+import Calendar from 'react-github-contribution-calendar';
 import cpu from "../assets/sidebar-icons/cpu.png";
 import "../App.css";
 
@@ -44,6 +44,24 @@ const colors = {
 
 export default class Home extends Component {
   render() {
+
+    var values_2018 = {
+      '2018-01-23': 3,
+      '2018-01-26': 2,
+      '2018-01-27': 3,
+      '2018-01-28': 4,
+      '2018-01-29': 4
+    }
+    var values_2019 = {
+      '2019-01-23': 3,
+      '2019-01-26': 2,
+      '2019-01-27': 3,
+      '2019-01-28': 4,
+      '2019-01-29': 4
+    }
+    var until_2018 = '2018-11-30';
+    var until_2019 = '2019-11-30';
+
     return (
       <div className="container-fluid">
         <div className="row">
@@ -80,15 +98,10 @@ export default class Home extends Component {
         <div className="row">
           <div className="col-lg-1" />
           <div className="col-lg-8 github-section">
-            <GitHubCalendar
-              username="Jzbonner"
-              years={[2019, 2018]}
-              fullYear={false}
-              fontSize={12}
-              blockSize={10}
-              blockMargin={4}
-              color="hsl(203, 82%, 33%)"
-            />
+            <p className="github-info">@jzbonner (contributions in 2019)</p>
+            <Calendar values={values_2019} until={until_2019} />
+            <p className="github-info">@jzbonner (contributions in 2018)</p>
+            <Calendar values={values_2018} until={until_2018} />
           </div>
           <div className="col-lg-1" />
         </div>

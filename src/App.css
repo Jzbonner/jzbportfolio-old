@@ -279,10 +279,9 @@ a.resume-link {
 .resume-description {
   color: black;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  margin-top: 5px; 
+  margin-top: 15px; 
   margin-left: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px; 
+  padding: 15px; 
   text-align: left;
 }
 
@@ -297,8 +296,74 @@ a.resume-link {
   width: 225px;
 }
 
-.pdf-js {
-  padding-top: 25px; 
+.resume-mid-section-container {
+  border-bottom: 3px solid grey; 
+  border-radius: 3px; 
+  margin-top: 45px; 
+  overflow: hidden; 
+  width: 100%; 
+  height: 310px; 
+  z-index: 2; 
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; 
+}
+
+.resume-mid-section-container:hover {
+  border-bottom: 0px solid grey; 
+} 
+
+.resume-mid-section-box-upper {
+  height: 240px; 
+  background-color: rgba(206,224,236, 0.5);
+}
+
+.resume-mid-section-box-lower {
+  border: 3px solid grey; 
+  background-color: rgba(94, 91, 83, 0.5);
+}
+
+.resume-mid-section-container:hover a img.resume-brand {
+  -webkit-filter: blur(0px);
+  filter: blur(0px); 
+  margin-top: -180px; 
+}
+
+.resume-mid-section-container:hover a.resume-links {
+  color: rgb(75, 75, 75); 
+  text-decoration: none; 
+}
+
+.resume-brand {  
+  height: 80px; 
+  width: 80px; 
+  display: block; 
+  margin: 0 auto; 
+  -webkit-filter: blur(5px);
+  filter: blur(5px); 
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+
+.mid-section-title {
+  text-align: left;
+  font-size: 24px; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top: 15px; 
+  margin-left: 25px; 
+}
+
+.mid-section-sub-title {
+  font-size: 18px; 
+  font-weight: 600; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  padding-bottom: 25px; 
+  padding-top: 10px; 
+}
+
+.resume-links {
+  color: #f2f2f2;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
 }
 
 /* Portfolio Section */
