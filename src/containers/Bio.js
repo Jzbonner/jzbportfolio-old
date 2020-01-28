@@ -4,19 +4,19 @@ import MSFT from "../assets/bio-icons/mcrsft.png";
 import Note from "../assets/sidebar-icons/graphics-card.png";
 import Habitat from "../assets/bio-icons/habitat.png";
 import Skills from "../assets/bio-icons/skills.png";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/gears.png";
 
 import "../App.css";
 
 export default class Bio extends Component {
   render() {
     return (
-      <div className="bio">
+      <div className="bio container-fluid">
         <div className="row">
-          <div className="col-lg-2">
+          <div className="col-lg-2 side-icon-bg">
             <img className="portfolio-side-icon" src={Note} />
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 description-bg">
             <p className="general-interest">
               Through educational coursework at UNC-CH and employment experience
               in the industry, I have expanded my skill-set and interest to
@@ -27,17 +27,16 @@ export default class Bio extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-1" />
-          <div className="col-lg-5">
-          {/* Course Overview Section */}
+          <div className="col-lg-6">
+            {/* Course Overview Section */}
             <table className="course-overview">
               <tbody>
                 <tr>
                   <td className="course-title">INLS 202</td>
                   <td className="course-description">
-                    Information Retrieval: Conceptual knowledge on information
-                    retrieval techniques, information organization practices,
-                    and data mining and analysis
+                    <i>Information Retrieval:</i> includes information retrieval
+                    techniques, information organization, and data mining and
+                    analysis
                   </td>
                 </tr>
                 <tr>
@@ -46,9 +45,8 @@ export default class Bio extends Component {
                     INLS 500 <br />
                   </td>
                   <td className="course-description">
-                    Human Computer Interaction: Focused on data visualization
-                    and modeling, information search behavior, human-computer
-                    interactions, and user interfaces
+                    <i>Human Computer Interaction:</i> Data visualization, information
+                    search behavior, human-computer interactions, and UI/UX
                   </td>
                 </tr>
                 <tr>
@@ -57,16 +55,15 @@ export default class Bio extends Component {
                     INLS 520 <br />
                   </td>
                   <td className="course-description">
-                    Organization of Information: Implemented database modeles
-                    and schemas, data structures and algorithms, terminological
-                    control, and index language functions
+                    <i>Organization of Information:</i> Database models & schema, data
+                    structures and algorithms, and index language functions
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div className="col-lg-5">
-          {/* Unversity Overview Section */}
+          <div className="col-lg-4">
+            {/* Unversity Overview Section */}
             <img className="university-section-skills-logo" src={Skills} />
             <table className="university-section">
               <tbody>
@@ -129,17 +126,17 @@ export default class Bio extends Component {
           </div>
           <div className="col-lg-1" />
         </div>
-        <div className="row">
+        {/*<div className="row">
           <div className="col-lg-3" />
-          <div className="col-lg-7">
+          <div className="col-lg-6">
             <img src={Profile} className="home-pic" alt="home-pic" />
             <p className="general-interest-3">
               Gaining experience in life is about finding your <br />
               medium in a world of extremes{" "}
             </p>
           </div>
-          <div className="col-lg-2" />
-        </div>
+          <div className="col-lg-3" />
+        </div>*/}
       </div>
     );
   }

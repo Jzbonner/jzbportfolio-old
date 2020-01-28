@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ResumePic from "../assets/sidebar-icons/keyboard.png";
-import  { Document, Page }  from "react-pdf"; 
+import  { Document }  from "react-pdf"; 
 import "../App.css";
 
 {
