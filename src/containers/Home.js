@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import SkillBar from "react-skillbars";
-import Profile from "../assets/profile.jpg";
+import GitHubCalendar from "react-github-calendar";
 import cpu from "../assets/sidebar-icons/cpu.png";
 import "../App.css";
-import GitHubCalendar from "react-github-calendar";
+
+import brain from "../assets/home-icons/brain.svg"
+import chip from "../assets/home-icons/chip.png"
+import laptop from "../assets/home-icons/laptop.png"
+import smartphone from "../assets/home-icons/smartphone.png"
+
 
 {
   /*Constant Variable for SkillBar attributes*/
@@ -70,19 +75,8 @@ export default class Home extends Component {
           <div className="col-lg-6">
             <SkillBar skills={skills} colors={colors} height={22} />
           </div>
-          <div className="col-lg-3">
-            <table>
-              <tbody>
-                <tr>
-                  <td><img src="" alt="home-icon"/></td>
-                  <td><img src="" alt="home-icon"/></td>
-                </tr>
-                <tr>
-                  <td><img src="" alt="home-icon"/></td>
-                  <td><img src="" alt="home-icon"/></td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="col-lg-3 home-brand-div">
+            <img className="home-brand" src={brain} alt="home-brand"/>
           </div>
         </div>
 

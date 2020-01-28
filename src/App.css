@@ -110,6 +110,18 @@ html,
   padding: 10px; 
 }
 
+.home-brand-div {
+  margin-top: 30px; 
+}
+
+.home-brand {
+  display: block;
+  margin: 0 auto; 
+  height: 144px;
+  width: 144px;
+  z-index: 2; 
+}
+
 /* Experience Section */
 .employment-title {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
