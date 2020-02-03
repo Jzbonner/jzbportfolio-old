@@ -1,10 +1,6 @@
 /*
   ~ NOTES FOR DEVELOPMENT ~ 
-
-  1.) Add details and links to expansion panels on Portfolio Project Page 
-  2.) Add Freelance experience and spruce up Experience Cards on Employment Page 
   3.) Add animations to site
-  4.) Change Expansion Panel design on Portfolio Projects Page 
   5.) Re-implement in SCSS 
 
   Resource for setting up ReactJS State for component transitions and animations: https://www.youtube.com/watch?v=ztvNwFV0Ai0
@@ -314,18 +310,17 @@ a.resume-link {
 
 .resume-mid-section-box-upper {
   height: 240px; 
-  background-color: rgba(206,224,236, 0.5);
 }
 
 .resume-mid-section-box-lower {
   border: 3px solid grey; 
-  background-color: rgba(94, 91, 83, 0.5);
+  background-color: rgba(94, 91, 83, 0.2);
 }
 
 .resume-mid-section-container:hover a img.resume-brand {
   -webkit-filter: blur(0px);
   filter: blur(0px); 
-  margin-top: -180px; 
+  margin-top: -230px; 
 }
 
 .resume-mid-section-container:hover a.resume-links {
@@ -333,23 +328,44 @@ a.resume-link {
   text-decoration: none; 
 }
 
+.resume-mid-section-container:hover a p.click-me {
+  -webkit-transform: translateX(130px) translateY(-70px);
+  transform: translateX(130px) translateY(-70px);
+}
+
 .resume-brand {  
-  height: 80px; 
-  width: 80px; 
-  display: block; 
-  margin: 0 auto; 
+  height: 110px; 
+  width: 110px; 
+  display: block;  
   -webkit-filter: blur(5px);
   filter: blur(5px); 
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+  z-index: 2; 
+}
+
+.click-me {
+  font-size: 19px; 
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-bottom: 0px; 
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; 
 }
 
 .mid-section-title {
-  text-align: left;
-  font-size: 24px; 
+  border-radius: 5px; 
+  background-color: rgba(170,156, 141, 0.4);
+  box-shadow: 0 2px 2px rgba(170,156, 141, 1); 
+  padding: 5px; 
+  text-align: center;
+  font-size: 18px; 
+  font-weight: 600; 
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  margin-top: 15px; 
-  margin-left: 25px; 
+  margin-top: 15px;  
+  margin-left: 15px; 
+  z-index: 2; 
 }
 
 .mid-section-sub-title {
@@ -357,11 +373,12 @@ a.resume-link {
   font-weight: 600; 
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   padding-bottom: 25px; 
-  padding-top: 10px; 
+  padding-top: 15px; 
+  z-index: 3; 
 }
 
 .resume-links {
-  color: #f2f2f2;
+  color: #6a6a6a;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; 
 }

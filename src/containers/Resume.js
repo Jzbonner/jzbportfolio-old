@@ -37,13 +37,14 @@ export default class Resume extends Component {
             </div>
             <div className="row resume-mid-section-box-lower">
               <div className="col-lg-12">
-                <a className="resume-links" href="">
-                  <p className="mid-section-sub-title">⚫ Skillset and Credentials</p>
+                <a className="resume-links" href="https://docs.google.com/document/d/1VxIm4JczdkoOJcBylz5pvuIAzBPQv_zguVvN2OTfJB4/edit?usp=sharing">
+                  <p className="mid-section-sub-title">⚫  Skillset and Credentials</p>
                   <img
                     className="resume-brand"
                     src={resumePreview}
                     alt="resume-brand"
                   />
+                  <p className="click-me">Link to Resume Here</p>
                 </a>
               </div>
             </div>
@@ -57,13 +58,14 @@ export default class Resume extends Component {
             </div>
             <div className="row resume-mid-section-box-lower">
               <div className="col-lg-12">
-                <a className="resume-links" href="">
-                <p className="mid-section-sub-title">⚫ A Blog About Open Source</p>
+                <a className="resume-links" href="https://developer-handshake.github.io/">
+                <p className="mid-section-sub-title">⚫  A Blog About Open Source</p>
                   <img
                     className="resume-brand"
                     src={blogPreveiw}
                     alt="resume-brand"
                   />
+                  <p className="click-me">Link to Blog Here</p>
                 </a>
               </div>
             </div>

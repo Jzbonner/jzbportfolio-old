@@ -34,7 +34,8 @@ const styles = theme => ({
   },
   design: {
     borderRadius: "3px",
-    backgroundColor: "rgba(234,212,194, 0.4)",
+    backgroundColor: "rgba(234,212,194, 0.2)",
+    border: "2px solid grey",
     marginBottom: "24px",
     boxshadow: "0px 0px"
   },

@@ -1,0 +1,26 @@
+-- Changes to portfolio site content -- 
+Home Page: Software Engineering is the toolset for building a better tomorrow. Web Application development, technical writing, quantitative analysis and data insights are fields that I have honed my skill set in. Previous academic experiences in computer and information science, internships at mechanical/electrical engineering firms, and freelance projects for clients have molded me with a keen interest in practical design and software development.
+
+Home Page Revised: 
+
+Bio Page: Through educational coursework at UNC-CH and employment experience in the industry, I have expanded my skill-set and interest to include data science competitions, freelance web development, foreign language (Spanish), quantitative analysis and data visualization
+
+Bio Page Revised:
+
+Portfolio Page: My internship and employment experiences have allowed me the opportunity to develop a skill-set geared towards the tech industry. Having worked with a plethora of technologies and operational systems, I have become well equipped with handling a multitude of task from networking architecture and web development to help-desk operations and account management. 
+
+Portfolio Page Revised: 
+
+Resume Page Revised: 
+* (Github Spotlight)[https://github.com/Jzbonner?tab=repositories]
+* (LinkedIn)[https://www.linkedin.com/in/jarrett-bonner/]
+* (Recent Blog Post)[https://developer-handshake.github.io/2018/12/17/javascript-basics/]
+* (Book Reccomendation: Drinking Coffee Elsewhere - Z.Z. Parker)[https://www.amazon.com/gp/product/1573223786?tag=randohouseinc7986-20]
+
+ 
+-- Layout Changes: Bio Page and Home Page -- 
+⚫ Home Page 
+add in content values for Github Calendar Section 
+  
+⚫ Bio Page 
+add in section for employment bio too; cater content to flow better 
