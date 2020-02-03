@@ -103,7 +103,14 @@ html,
   border-left: 1px solid darkgrey; 
   margin-top: 35px; 
   margin-bottom: 35px; 
-  padding: 10px; 
+  height: 100%; 
+  width: 100%; 
+  padding: 20px; 
+}
+
+.github-info {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 16px; 
 }
 
 .home-brand-div {
@@ -113,8 +120,8 @@ html,
 .home-brand {
   display: block;
   margin: 0 auto; 
-  height: 144px;
-  width: 144px;
+  height: 200px;
+  width: 200px;
   z-index: 2; 
 }
 
